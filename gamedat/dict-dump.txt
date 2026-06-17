@@ -1,0 +1,722 @@
+
+Story file is gamedat/witness-r23-s840925.z3
+
+    **** Dictionary ****
+
+  Word separators = ",.""
+  Word count = 714, word size = 7
+
+[   1] @ $3519 $ca     [41 a9 00] <verb>
+[   2] @ $3520 $db     [41 9d 00] <verb>
+[   3] @ $3527 $gn     [80 01 00] <noun>
+[   4] @ $352e $ta     [41 9e 00] <verb>
+[   5] @ $3535 $ve     [41 9c 00] <verb>
+[   6] @ $353c $wh     [41 9f 00] <verb>
+[   7] @ $3543 .       [04 f3 00] <special>
+[   8] @ $354a ,       [04 f2 00] <special>
+[   9] @ $3551 !       [04 f0 00] <special>
+[  10] @ $3558 ?       [04 ef 00] <special>
+[  11] @ $355f \"       [04 f1 00] <special>
+[  12] @ $3566 a       [04 ff 00] <special>
+[  13] @ $356d about   [08 fb 00] <prep>
+[  14] @ $3574 accuse  [41 a0 00] <verb>
+[  15] @ $357b ad      [04 ee 00] <special>
+[  16] @ $3582 adelin  [04 ed 00] <special>
+[  17] @ $3589 adobe   [22 6b 00] <adj>
+[  18] @ $3590 advanc  [22 67 00] <adj>
+[  19] @ $3597 affair  [80 01 00] <noun>
+[  20] @ $359e agains  [08 f2 00] <prep>
+[  21] @ $35a5 air     [80 01 00] <noun>
+[  22] @ $35ac am      [04 fa 00] <special>
+[  23] @ $35b3 ambula  [80 01 00] <noun>
+[  24] @ $35ba an      [04 fe 00] <special>
+[  25] @ $35c1 analys  [41 a1 00] <verb>
+[  26] @ $35c8 analyz  [41 a1 00] <verb>
+[  27] @ $35cf and     [04 f9 00] <special>
+[  28] @ $35d6 answer  [41 a2 00] <verb>
+[  29] @ $35dd applia  [80 01 00] <noun>
+[  30] @ $35e4 apply   [41 a3 00] <verb>
+[  31] @ $35eb are     [04 fb 00] <special>
+[  32] @ $35f2 area    [80 01 00] <noun>
+[  33] @ $35f9 arm     [22 b6 00] <adj>
+[  34] @ $3600 around  [08 f1 00] <prep>
+[  35] @ $3607 arrang  [80 01 00] <noun>
+[  36] @ $360e arrest  [41 a4 00] <verb>
+[  37] @ $3615 asian   [22 96 00] <adj>
+[  38] @ $361c ask     [41 a5 00] <verb>
+[  39] @ $3623 assaul  [41 d8 00] <verb>
+[  40] @ $362a associ  [80 01 00] <noun>
+[  41] @ $3631 asta    [80 01 00] <noun>
+[  42] @ $3638 at      [08 f4 00] <prep>
+[  43] @ $363f attach  [41 f0 00] <verb>
+[  44] @ $3646 attack  [41 a6 00] <verb>
+[  45] @ $364d auto    [80 01 00] <noun>
+[  46] @ $3654 autops  [80 01 00] <noun>
+[  47] @ $365b awake   [41 fb 00] <verb>
+[  48] @ $3662 back    [22 f4 00] <adj>
+[  49] @ $3669 back-   [22 f2 00] <adj>
+[  50] @ $3670 bamboo  [22 f5 00] <adj>
+[  51] @ $3677 bare    [22 c4 00] <adj>
+[  52] @ $367e basin   [80 01 00] <noun>
+[  53] @ $3685 bath    [22 e6 00] <adj>
+[  54] @ $368c bathro  [a2 e5 01] <adj> <noun>
+[  55] @ $3693 bathtu  [a2 e2 01] <adj> <noun>
+[  56] @ $369a beast   [80 01 00] <noun>
+[  57] @ $36a1 bed     [a2 db 01] <adj> <noun>
+[  58] @ $36a8 bedroo  [a2 e8 01] <adj> <noun>
+[  59] @ $36af behind  [08 f6 00] <prep>
+[  60] @ $36b6 bell    [80 01 00] <noun>
+[  61] @ $36bd belt    [80 01 00] <noun>
+[  62] @ $36c4 bench   [80 01 00] <noun>
+[  63] @ $36cb benche  [80 01 00] <noun>
+[  64] @ $36d2 beneat  [08 f5 00] <prep>
+[  65] @ $36d9 bentle  [80 01 00] <noun>
+[  66] @ $36e0 bite    [41 c2 00] <verb>
+[  67] @ $36e7 black   [22 6f 00] <adj>
+[  68] @ $36ee blast   [c0 01 e3] <verb> <noun>
+[  69] @ $36f5 block   [22 b0 00] <adj>
+[  70] @ $36fc bloody  [22 65 00] <adj>
+[  71] @ $3703 blue    [22 a8 00] <adj>
+[  72] @ $370a body    [80 01 00] <noun>
+[  73] @ $3711 book    [a2 e9 01] <adj> <noun>
+[  74] @ $3718 bookca  [80 01 00] <noun>
+[  75] @ $371f bookma  [80 01 00] <noun>
+[  76] @ $3726 books   [80 01 00] <noun>
+[  77] @ $372d boot    [80 01 00] <noun>
+[  78] @ $3734 boots   [80 01 00] <noun>
+[  79] @ $373b bottle  [80 01 00] <noun>
+[  80] @ $3742 boulde  [80 01 00] <noun>
+[  81] @ $3749 bourbo  [a2 80 01] <adj> <noun>
+[  82] @ $3750 box     [80 01 00] <noun>
+[  83] @ $3757 brass   [22 83 00] <adj>
+[  84] @ $375e break   [41 b0 00] <verb>
+[  85] @ $3765 breakf  [80 01 00] <noun>
+[  86] @ $376c breeze  [80 01 00] <noun>
+[  87] @ $3773 bribe   [80 01 00] <noun>
+[  88] @ $377a brief   [41 a7 00] <verb>
+[  89] @ $3781 briefl  [04 e3 00] <special>
+[  90] @ $3788 broken  [22 7a 00] <adj>
+[  91] @ $378f broom   [80 01 00] <noun>
+[  92] @ $3796 brown   [22 9f 00] <adj>
+[  93] @ $379d brush   [41 a8 00] <verb>
+[  94] @ $37a4 bunch   [80 01 00] <noun>
+[  95] @ $37ab busine  [a2 b2 01] <adj> <noun>
+[  96] @ $37b2 but     [04 f5 00] <special>
+[  97] @ $37b9 butler  [22 c6 00] <adj>
+[  98] @ $37c0 button  [80 01 00] <noun>
+[  99] @ $37c7 cabine  [80 01 00] <noun>
+[ 100] @ $37ce call    [c0 01 aa] <verb> <noun>
+[ 101] @ $37d5 callig  [22 bf 00] <adj>
+[ 102] @ $37dc camel   [80 01 00] <noun>
+[ 103] @ $37e3 can     [80 01 00] <noun>
+[ 104] @ $37ea cancer  [80 01 00] <noun>
+[ 105] @ $37f1 canned  [22 ca 00] <adj>
+[ 106] @ $37f8 car     [a0 01 a2] <adj> <noun>
+[ 107] @ $37ff carcin  [80 01 00] <noun>
+[ 108] @ $3806 carefu  [04 e8 00] <special>
+[ 109] @ $380d carry   [41 ec 00] <verb>
+[ 110] @ $3814 carryi  [04 e9 00] <special>
+[ 111] @ $381b carved  [22 b8 00] <adj>
+[ 112] @ $3822 case    [80 01 00] <noun>
+[ 113] @ $3829 cast    [80 01 00] <noun>
+[ 114] @ $3830 cat     [80 01 00] <noun>
+[ 115] @ $3837 cedar   [22 e7 00] <adj>
+[ 116] @ $383e ch      [04 ec 00] <special>
+[ 117] @ $3845 chair   [80 01 00] <noun>
+[ 118] @ $384c chairs  [80 01 00] <noun>
+[ 119] @ $3853 chandl  [04 eb 00] <special>
+[ 120] @ $385a chase   [41 ba 00] <verb>
+[ 121] @ $3861 check   [41 a1 00] <verb>
+[ 122] @ $3868 china   [80 01 00] <noun>
+[ 123] @ $386f chuck   [41 ef 00] <verb>
+[ 124] @ $3876 chunk   [80 01 00] <noun>
+[ 125] @ $387d cigare  [80 01 00] <noun>
+[ 126] @ $3884 clean   [41 a8 00] <verb>
+[ 127] @ $388b climat  [80 01 00] <noun>
+[ 128] @ $3892 climb   [41 ab 00] <verb>
+[ 129] @ $3899 clock   [a0 01 ad] <adj> <noun>
+[ 130] @ $38a0 close   [41 ac 00] <verb>
+[ 131] @ $38a7 closel  [04 e7 00] <special>
+[ 132] @ $38ae closet  [a0 01 bb] <adj> <noun>
+[ 133] @ $38b5 clothe  [80 01 00] <noun>
+[ 134] @ $38bc club    [22 d3 00] <adj>
+[ 135] @ $38c3 cockta  [80 01 00] <noun>
+[ 136] @ $38ca coffee  [22 d2 00] <adj>
+[ 137] @ $38d1 cold    [22 c8 00] <adj>
+[ 138] @ $38d8 colt    [80 01 00] <noun>
+[ 139] @ $38df compan  [80 01 00] <noun>
+[ 140] @ $38e6 compar  [62 87 ad] <adj> <verb>
+[ 141] @ $38ed confro  [41 ae 00] <verb>
+[ 142] @ $38f4 consol  [22 d1 00] <adj>
+[ 143] @ $38fb conspi  [80 01 00] <noun>
+[ 144] @ $3902 consum  [41 b4 00] <verb>
+[ 145] @ $3909 contin  [41 db 00] <verb>
+[ 146] @ $3910 conver  [80 01 00] <noun>
+[ 147] @ $3917 corone  [80 01 00] <noun>
+[ 148] @ $391e corpse  [80 01 00] <noun>
+[ 149] @ $3925 couch   [80 01 00] <noun>
+[ 150] @ $392c counte  [80 01 00] <noun>
+[ 151] @ $3933 crime   [80 01 00] <noun>
+[ 152] @ $393a crouch  [41 c0 00] <verb>
+[ 153] @ $3941 cuff    [c0 01 bd] <verb> <noun>
+[ 154] @ $3948 cuffs   [80 01 00] <noun>
+[ 155] @ $394f cupboa  [80 01 00] <noun>
+[ 156] @ $3956 curse   [41 af 00] <verb>
+[ 157] @ $395d custom  [22 b4 00] <adj>
+[ 158] @ $3964 d       [08 f8 00] <prep>
+[ 159] @ $396b dad     [80 01 00] <noun>
+[ 160] @ $3972 damage  [41 b0 00] <verb>
+[ 161] @ $3979 damn    [41 af 00] <verb>
+[ 162] @ $3980 danger  [80 01 00] <noun>
+[ 163] @ $3987 daniel  [22 7e 00] <adj>
+[ 164] @ $398e dark    [22 f6 00] <adj>
+[ 165] @ $3995 date    [80 01 00] <noun>
+[ 166] @ $399c davenp  [80 01 00] <noun>
+[ 167] @ $39a3 day     [80 01 00] <noun>
+[ 168] @ $39aa dense   [22 f8 00] <adj>
+[ 169] @ $39b1 descri  [41 b6 00] <verb>
+[ 170] @ $39b8 desk    [80 01 00] <noun>
+[ 171] @ $39bf destro  [41 b0 00] <verb>
+[ 172] @ $39c6 detect  [80 01 00] <noun>
+[ 173] @ $39cd dial    [41 b1 00] <verb>
+[ 174] @ $39d4 did     [41 fe 00] <verb>
+[ 175] @ $39db dig     [62 64 e2] <adj> <verb>
+[ 176] @ $39e2 dining  [22 ce 00] <adj>
+[ 177] @ $39e9 dinner  [80 01 00] <noun>
+[ 178] @ $39f0 dirt    [80 01 00] <noun>
+[ 179] @ $39f7 dirty   [22 6c 00] <adj>
+[ 180] @ $39fe divan   [80 01 00] <noun>
+[ 181] @ $3a05 do      [04 e2 00] <special>
+[ 182] @ $3a0c doctor  [80 01 00] <noun>
+[ 183] @ $3a13 donate  [41 bb 00] <verb>
+[ 184] @ $3a1a door    [a2 fd 01] <adj> <noun>
+[ 185] @ $3a21 doorbe  [80 01 00] <noun>
+[ 186] @ $3a28 double  [22 cf 00] <adj>
+[ 187] @ $3a2f douse   [41 b7 00] <verb>
+[ 188] @ $3a36 down    [08 f8 00] <prep>
+[ 189] @ $3a3d dresse  [80 01 00] <noun>
+[ 190] @ $3a44 dressi  [22 ec 00] <adj>
+[ 191] @ $3a4b drink   [c0 01 b2] <verb> <noun>
+[ 192] @ $3a52 drive   [22 fc 00] <adj>
+[ 193] @ $3a59 drivew  [80 01 00] <noun>
+[ 194] @ $3a60 drop    [41 b3 00] <verb>
+[ 195] @ $3a67 duffy   [80 01 00] <noun>
+[ 196] @ $3a6e dust    [41 a1 00] <verb>
+[ 197] @ $3a75 e       [13 1d 00] <dir>
+[ 198] @ $3a7c east    [13 1d 00] <dir>
+[ 199] @ $3a83 eat     [41 b4 00] <verb>
+[ 200] @ $3a8a editio  [41 f9 00] <verb>
+[ 201] @ $3a91 electr  [22 c9 00] <adj>
+[ 202] @ $3a98 end     [22 c2 00] <adj>
+[ 203] @ $3a9f enter   [41 b5 00] <verb>
+[ 204] @ $3aa6 entry   [80 01 00] <noun>
+[ 205] @ $3aad euthan  [80 01 00] <noun>
+[ 206] @ $3ab4 examin  [41 b6 00] <verb>
+[ 207] @ $3abb except  [04 f4 00] <special>
+[ 208] @ $3ac2 explai  [41 e0 00] <verb>
+[ 209] @ $3ac9 explos  [80 01 00] <noun>
+[ 210] @ $3ad0 exting  [41 b7 00] <verb>
+[ 211] @ $3ad7 fasten  [41 f0 00] <verb>
+[ 212] @ $3ade father  [80 01 00] <noun>
+[ 213] @ $3ae5 faucet  [80 01 00] <noun>
+[ 214] @ $3aec feel    [41 de 00] <verb>
+[ 215] @ $3af3 feline  [80 01 00] <noun>
+[ 216] @ $3afa fence   [80 01 00] <noun>
+[ 217] @ $3b01 fields  [22 d6 00] <adj>
+[ 218] @ $3b08 fiftee  [80 01 00] <noun>
+[ 219] @ $3b0f fight   [41 a6 00] <verb>
+[ 220] @ $3b16 file    [22 b3 00] <adj>
+[ 221] @ $3b1d film    [80 01 00] <noun>
+[ 222] @ $3b24 find    [41 b8 00] <verb>
+[ 223] @ $3b2b finger  [c0 01 b9] <verb> <noun>
+[ 224] @ $3b32 fire    [c0 01 e3] <verb> <noun>
+[ 225] @ $3b39 firepl  [80 01 00] <noun>
+[ 226] @ $3b40 five    [80 01 00] <noun>
+[ 227] @ $3b47 flip    [41 f2 00] <verb>
+[ 228] @ $3b4e floor   [80 01 00] <noun>
+[ 229] @ $3b55 flower  [22 c1 00] <adj>
+[ 230] @ $3b5c follow  [41 ba 00] <verb>
+[ 231] @ $3b63 food    [80 01 00] <noun>
+[ 232] @ $3b6a foods   [80 01 00] <noun>
+[ 233] @ $3b71 foot    [22 fb 00] <adj>
+[ 234] @ $3b78 footpr  [80 01 00] <noun>
+[ 235] @ $3b7f for     [08 ff 00] <prep>
+[ 236] @ $3b86 forest  [80 01 00] <noun>
+[ 237] @ $3b8d four    [a2 d9 01] <adj> <noun>
+[ 238] @ $3b94 four-   [a2 d8 01] <adj> <noun>
+[ 239] @ $3b9b foyer   [80 01 00] <noun>
+[ 240] @ $3ba2 fragme  [80 01 00] <noun>
+[ 241] @ $3ba9 frame   [80 01 00] <noun>
+[ 242] @ $3bb0 framed  [22 b1 00] <adj>
+[ 243] @ $3bb7 free    [41 f6 00] <verb>
+[ 244] @ $3bbe freema  [22 92 00] <adj>
+[ 245] @ $3bc5 french  [22 cc 00] <adj>
+[ 246] @ $3bcc fridge  [80 01 00] <noun>
+[ 247] @ $3bd3 from    [08 ed 00] <prep>
+[ 248] @ $3bda front   [22 fe 00] <adj>
+[ 249] @ $3be1 fuck    [41 af 00] <verb>
+[ 250] @ $3be8 garage  [a2 a9 01] <adj> <noun>
+[ 251] @ $3bef garden  [a0 01 6a] <adj> <noun>
+[ 252] @ $3bf6 gate    [80 01 00] <noun>
+[ 253] @ $3bfd gaze    [41 cc 00] <verb>
+[ 254] @ $3c04 get     [41 ec 00] <verb>
+[ 255] @ $3c0b give    [41 bb 00] <verb>
+[ 256] @ $3c12 glass   [80 01 00] <noun>
+[ 257] @ $3c19 glasse  [80 01 00] <noun>
+[ 258] @ $3c20 go      [41 fc 00] <verb>
+[ 259] @ $3c27 goodby  [41 bc 00] <verb>
+[ 260] @ $3c2e grandf  [22 ae 00] <adj>
+[ 261] @ $3c35 grass   [80 01 00] <noun>
+[ 262] @ $3c3c green   [22 f1 00] <adj>
+[ 263] @ $3c43 grey    [22 9b 00] <adj>
+[ 264] @ $3c4a ground  [80 01 00] <noun>
+[ 265] @ $3c51 gun     [a2 ac 01] <adj> <noun>
+[ 266] @ $3c58 gunpow  [80 01 00] <noun>
+[ 267] @ $3c5f gunsho  [80 01 00] <noun>
+[ 268] @ $3c66 hammer  [80 01 00] <noun>
+[ 269] @ $3c6d hand    [41 bb 00] <verb>
+[ 270] @ $3c74 hand-   [22 7c 00] <adj>
+[ 271] @ $3c7b handcu  [c0 01 bd] <verb> <noun>
+[ 272] @ $3c82 handgu  [80 01 00] <noun>
+[ 273] @ $3c89 handwr  [80 01 00] <noun>
+[ 274] @ $3c90 hatch   [41 ab 00] <verb>
+[ 275] @ $3c97 have    [04 e0 00] <special>
+[ 276] @ $3c9e he      [80 01 00] <noun>
+[ 277] @ $3ca5 head    [80 01 00] <noun>
+[ 278] @ $3cac heater  [80 01 00] <noun>
+[ 279] @ $3cb3 hello   [41 be 00] <verb>
+[ 280] @ $3cba help    [c0 01 bf] <verb> <noun>
+[ 281] @ $3cc1 her     [a2 a3 01] <adj> <noun>
+[ 282] @ $3cc8 herb    [80 01 00] <noun>
+[ 283] @ $3ccf herbs   [80 01 00] <noun>
+[ 284] @ $3cd6 here    [80 01 00] <noun>
+[ 285] @ $3cdd hersel  [80 01 00] <noun>
+[ 286] @ $3ce4 hi      [41 be 00] <verb>
+[ 287] @ $3ceb hidden  [22 78 00] <adj>
+[ 288] @ $3cf2 hide    [41 c0 00] <verb>
+[ 289] @ $3cf9 him     [80 01 00] <noun>
+[ 290] @ $3d00 himsel  [80 01 00] <noun>
+[ 291] @ $3d07 hint    [80 01 00] <noun>
+[ 292] @ $3d0e his     [22 da 00] <adj>
+[ 293] @ $3d15 hit     [41 e6 00] <verb>
+[ 294] @ $3d1c hoe     [80 01 00] <noun>
+[ 295] @ $3d23 hold    [41 ec 00] <verb>
+[ 296] @ $3d2a hood    [80 01 00] <noun>
+[ 297] @ $3d31 hose    [80 01 00] <noun>
+[ 298] @ $3d38 house   [a0 01 75] <adj> <noun>
+[ 299] @ $3d3f how     [41 fe 00] <verb>
+[ 300] @ $3d46 hui     [22 97 00] <adj>
+[ 301] @ $3d4d hurl    [41 ef 00] <verb>
+[ 302] @ $3d54 hurt    [41 e6 00] <verb>
+[ 303] @ $3d5b i       [c0 01 c1] <verb> <noun>
+[ 304] @ $3d62 imbibe  [c0 01 b2] <verb> <noun>
+[ 305] @ $3d69 import  [22 88 00] <adj>
+[ 306] @ $3d70 in      [18 f7 15] <prep> <dir>
+[ 307] @ $3d77 injure  [41 e6 00] <verb>
+[ 308] @ $3d7e inquir  [41 a5 00] <verb>
+[ 309] @ $3d85 insert  [41 d5 00] <verb>
+[ 310] @ $3d8c inside  [18 f7 15] <prep> <dir>
+[ 311] @ $3d93 inspec  [41 b6 00] <verb>
+[ 312] @ $3d9a intnum  [80 01 00] <noun>
+[ 313] @ $3da1 into    [18 f7 15] <prep> <dir>
+[ 314] @ $3da8 invent  [c0 01 c1] <verb> <noun>
+[ 315] @ $3daf is      [04 fc 00] <special>
+[ 316] @ $3db6 it      [80 01 00] <noun>
+[ 317] @ $3dbd jack    [22 7f 00] <adj>
+[ 318] @ $3dc4 juncti  [22 9a 00] <adj>
+[ 319] @ $3dcb key     [80 01 00] <noun>
+[ 320] @ $3dd2 keyhol  [80 01 00] <noun>
+[ 321] @ $3dd9 keys    [80 01 00] <noun>
+[ 322] @ $3de0 kick    [41 c2 00] <verb>
+[ 323] @ $3de7 kill    [41 c3 00] <verb>
+[ 324] @ $3dee killin  [80 01 00] <noun>
+[ 325] @ $3df5 kiss    [41 c4 00] <verb>
+[ 326] @ $3dfc kitche  [a2 ff 01] <adj> <noun>
+[ 327] @ $3e03 knock   [41 c5 00] <verb>
+[ 328] @ $3e0a know    [41 c6 00] <verb>
+[ 329] @ $3e11 l       [41 cc 00] <verb>
+[ 330] @ $3e18 lamp    [80 01 00] <noun>
+[ 331] @ $3e1f lanter  [80 01 00] <noun>
+[ 332] @ $3e26 large   [22 ba 00] <adj>
+[ 333] @ $3e2d late    [22 8c 00] <adj>
+[ 334] @ $3e34 lawn    [80 01 00] <noun>
+[ 335] @ $3e3b lead    [41 ec 00] <verb>
+[ 336] @ $3e42 lean    [41 c7 00] <verb>
+[ 337] @ $3e49 leave   [41 c8 00] <verb>
+[ 338] @ $3e50 left    [80 01 00] <noun>
+[ 339] @ $3e57 letter  [80 01 00] <noun>
+[ 340] @ $3e5e lift    [41 d7 00] <verb>
+[ 341] @ $3e65 light   [41 c9 00] <verb>
+[ 342] @ $3e6c linder  [a2 dc 01] <adj> <noun>
+[ 343] @ $3e73 linen   [80 01 00] <noun>
+[ 344] @ $3e7a linens  [80 01 00] <noun>
+[ 345] @ $3e81 liquor  [22 d0 00] <adj>
+[ 346] @ $3e88 listen  [41 ca 00] <verb>
+[ 347] @ $3e8f living  [22 d7 00] <adj>
+[ 348] @ $3e96 lock    [c0 01 cb] <verb> <noun>
+[ 349] @ $3e9d long    [22 e4 00] <adj>
+[ 350] @ $3ea4 look    [41 cc 00] <verb>
+[ 351] @ $3eab loot    [80 01 00] <noun>
+[ 352] @ $3eb2 lot     [80 01 00] <noun>
+[ 353] @ $3eb9 lounge  [80 01 00] <noun>
+[ 354] @ $3ec0 love    [22 6d 00] <adj>
+[ 355] @ $3ec7 lovely  [22 c0 00] <adj>
+[ 356] @ $3ece lumpy   [22 aa 00] <adj>
+[ 357] @ $3ed5 make    [41 cd 00] <verb>
+[ 358] @ $3edc make-   [80 01 00] <noun>
+[ 359] @ $3ee3 man     [80 01 00] <noun>
+[ 360] @ $3eea massiv  [22 b9 00] <adj>
+[ 361] @ $3ef1 master  [22 dd 00] <adj>
+[ 362] @ $3ef8 match   [62 87 ad] <adj> <verb>
+[ 363] @ $3eff matchb  [80 01 00] <noun>
+[ 364] @ $3f06 matche  [80 01 00] <noun>
+[ 365] @ $3f0d maybe   [41 ff 00] <verb>
+[ 366] @ $3f14 me      [80 01 00] <noun>
+[ 367] @ $3f1b meal    [80 01 00] <noun>
+[ 368] @ $3f22 medica  [22 76 00] <adj>
+[ 369] @ $3f29 medita  [41 fa 00] <verb>
+[ 370] @ $3f30 mercy   [22 72 00] <adj>
+[ 371] @ $3f37 mg      [80 01 00] <noun>
+[ 372] @ $3f3e midnig  [80 01 00] <noun>
+[ 373] @ $3f45 minute  [04 ea 00] <special>
+[ 374] @ $3f4c mirror  [80 01 00] <noun>
+[ 375] @ $3f53 mister  [22 98 00] <adj>
+[ 376] @ $3f5a mixer   [80 01 00] <noun>
+[ 377] @ $3f61 molest  [41 d8 00] <verb>
+[ 378] @ $3f68 money   [80 01 00] <noun>
+[ 379] @ $3f6f monica  [a2 a4 01] <adj> <noun>
+[ 380] @ $3f76 morgue  [80 01 00] <noun>
+[ 381] @ $3f7d mother  [a0 01 74] <adj> <noun>
+[ 382] @ $3f84 move    [41 ce 00] <verb>
+[ 383] @ $3f8b movie   [a2 ea 01] <adj> <noun>
+[ 384] @ $3f92 mr      [22 99 00] <adj>
+[ 385] @ $3f99 mrs     [22 8d 00] <adj>
+[ 386] @ $3fa0 mud     [80 01 00] <noun>
+[ 387] @ $3fa7 muddy   [22 84 00] <adj>
+[ 388] @ $3fae murder  [80 01 00] <noun>
+[ 389] @ $3fb5 music   [80 01 00] <noun>
+[ 390] @ $3fbc myself  [80 01 00] <noun>
+[ 391] @ $3fc3 myster  [22 89 00] <adj>
+[ 392] @ $3fca n       [13 1f 00] <dir>
+[ 393] @ $3fd1 new     [22 79 00] <adj>
+[ 394] @ $3fd8 newspa  [80 01 00] <noun>
+[ 395] @ $3fdf nipper  [80 01 00] <noun>
+[ 396] @ $3fe6 no      [41 ff 00] <verb>
+[ 397] @ $3fed north   [13 1f 00] <dir>
+[ 398] @ $3ff4 note    [80 01 00] <noun>
+[ 399] @ $3ffb of      [04 f8 00] <special>
+[ 400] @ $4002 off     [08 fe 00] <prep>
+[ 401] @ $4009 offer   [41 bb 00] <verb>
+[ 402] @ $4010 office  [a2 f3 01] <adj> <noun>
+[ 403] @ $4017 ok      [04 db 00] <special>
+[ 404] @ $401e okeh    [04 d9 00] <special>
+[ 405] @ $4025 okey    [04 da 00] <special>
+[ 406] @ $402c old     [22 77 00] <adj>
+[ 407] @ $4033 on      [08 fd 00] <prep>
+[ 408] @ $403a one     [04 f6 00] <special>
+[ 409] @ $4041 open    [41 cf 00] <verb>
+[ 410] @ $4048 orange  [22 9e 00] <adj>
+[ 411] @ $404f orient  [22 95 00] <adj>
+[ 412] @ $4056 ornate  [22 b7 00] <adj>
+[ 413] @ $405d other   [22 bd 00] <adj>
+[ 414] @ $4064 out     [18 ef 14] <prep> <dir>
+[ 415] @ $406b outsid  [22 ef 00] <adj>
+[ 416] @ $4072 over    [08 ee 00] <prep>
+[ 417] @ $4079 pacifi  [22 71 00] <adj>
+[ 418] @ $4080 pair    [80 01 00] <noun>
+[ 419] @ $4087 pane    [80 01 00] <noun>
+[ 420] @ $408e panes   [80 01 00] <noun>
+[ 421] @ $4095 paper   [80 01 00] <noun>
+[ 422] @ $409c papers  [80 01 00] <noun>
+[ 423] @ $40a3 parlor  [80 01 00] <noun>
+[ 424] @ $40aa pat     [41 de 00] <verb>
+[ 425] @ $40b1 pause   [41 df 00] <verb>
+[ 426] @ $40b8 payoff  [80 01 00] <noun>
+[ 427] @ $40bf peal    [41 dd 00] <verb>
+[ 428] @ $40c6 peek    [41 d0 00] <verb>
+[ 429] @ $40cd peruse  [41 d9 00] <verb>
+[ 430] @ $40d4 pet     [41 de 00] <verb>
+[ 431] @ $40db phone   [c0 01 aa] <verb> <noun>
+[ 432] @ $40e2 phong   [a0 01 94] <adj> <noun>
+[ 433] @ $40e9 phongs  [22 93 00] <adj>
+[ 434] @ $40f0 pick    [41 d1 00] <verb>
+[ 435] @ $40f7 pictur  [80 01 00] <noun>
+[ 436] @ $40fe piece   [80 01 00] <noun>
+[ 437] @ $4105 pile    [80 01 00] <noun>
+[ 438] @ $410c piles   [80 01 00] <noun>
+[ 439] @ $4113 piss    [41 af 00] <verb>
+[ 440] @ $411a pistol  [80 01 00] <noun>
+[ 441] @ $4121 place   [41 d5 00] <verb>
+[ 442] @ $4128 plant   [80 01 00] <noun>
+[ 443] @ $412f plants  [80 01 00] <noun>
+[ 444] @ $4136 platfo  [80 01 00] <noun>
+[ 445] @ $413d play    [41 d2 00] <verb>
+[ 446] @ $4144 please  [04 dc 00] <special>
+[ 447] @ $414b police  [80 01 00] <noun>
+[ 448] @ $4152 poster  [80 01 00] <noun>
+[ 449] @ $4159 potted  [22 e1 00] <adj>
+[ 450] @ $4160 powder  [80 01 00] <noun>
+[ 451] @ $4167 press   [41 d4 00] <verb>
+[ 452] @ $416e prints  [80 01 00] <noun>
+[ 453] @ $4175 proble  [80 01 00] <noun>
+[ 454] @ $417c procee  [41 fc 00] <verb>
+[ 455] @ $4183 progra  [80 01 00] <noun>
+[ 456] @ $418a prop    [41 c7 00] <verb>
+[ 457] @ $4191 pta     [80 01 00] <noun>
+[ 458] @ $4198 pull    [41 d3 00] <verb>
+[ 459] @ $419f pullma  [80 01 00] <noun>
+[ 460] @ $41a6 punch   [41 e6 00] <verb>
+[ 461] @ $41ad pursue  [41 ba 00] <verb>
+[ 462] @ $41b4 push    [41 d4 00] <verb>
+[ 463] @ $41bb put     [41 d5 00] <verb>
+[ 464] @ $41c2 putty   [80 01 00] <noun>
+[ 465] @ $41c9 q       [41 d6 00] <verb>
+[ 466] @ $41d0 questi  [41 a5 00] <verb>
+[ 467] @ $41d7 quickl  [04 e4 00] <special>
+[ 468] @ $41de quietl  [04 e6 00] <special>
+[ 469] @ $41e5 quit    [41 d6 00] <verb>
+[ 470] @ $41ec radio   [80 01 00] <noun>
+[ 471] @ $41f3 raise   [41 d7 00] <verb>
+[ 472] @ $41fa rake    [80 01 00] <noun>
+[ 473] @ $4201 ralph   [22 90 00] <adj>
+[ 474] @ $4208 range   [a0 01 c7] <adj> <noun>
+[ 475] @ $420f rap     [41 c5 00] <verb>
+[ 476] @ $4216 rape    [41 d8 00] <verb>
+[ 477] @ $421d read    [41 d9 00] <verb>
+[ 478] @ $4224 receip  [80 01 00] <noun>
+[ 479] @ $422b receiv  [80 01 00] <noun>
+[ 480] @ $4232 record  [80 01 00] <noun>
+[ 481] @ $4239 red     [22 a7 00] <adj>
+[ 482] @ $4240 redwoo  [22 de 00] <adj>
+[ 483] @ $4247 refrig  [80 01 00] <noun>
+[ 484] @ $424e releas  [41 f9 00] <verb>
+[ 485] @ $4255 remove  [41 ec 00] <verb>
+[ 486] @ $425c reply   [41 a2 00] <verb>
+[ 487] @ $4263 report  [80 01 00] <noun>
+[ 488] @ $426a restar  [41 da 00] <verb>
+[ 489] @ $4271 restau  [80 01 00] <noun>
+[ 490] @ $4278 restor  [41 db 00] <verb>
+[ 491] @ $427f resume  [41 db 00] <verb>
+[ 492] @ $4286 revisi  [41 f9 00] <verb>
+[ 493] @ $428d revive  [41 dc 00] <verb>
+[ 494] @ $4294 right   [80 01 00] <noun>
+[ 495] @ $429b ring    [41 dd 00] <verb>
+[ 496] @ $42a2 rock    [80 01 00] <noun>
+[ 497] @ $42a9 rocks   [80 01 00] <noun>
+[ 498] @ $42b0 room    [a0 01 cd] <adj> <noun>
+[ 499] @ $42b7 rope    [80 01 00] <noun>
+[ 500] @ $42be roscoe  [80 01 00] <noun>
+[ 501] @ $42c5 round   [22 ed 00] <adj>
+[ 502] @ $42cc rub     [41 de 00] <verb>
+[ 503] @ $42d3 run     [41 fc 00] <verb>
+[ 504] @ $42da s       [13 1e 00] <dir>
+[ 505] @ $42e1 sample  [80 01 00] <noun>
+[ 506] @ $42e8 save    [41 df 00] <verb>
+[ 507] @ $42ef saw     [80 01 00] <noun>
+[ 508] @ $42f6 say     [41 e0 00] <verb>
+[ 509] @ $42fd scotch  [a2 82 01] <adj> <noun>
+[ 510] @ $4304 script  [41 e1 00] <verb>
+[ 511] @ $430b scroll  [80 01 00] <noun>
+[ 512] @ $4312 search  [62 64 e2] <adj> <verb>
+[ 513] @ $4319 secure  [41 f0 00] <verb>
+[ 514] @ $4320 sedan   [80 01 00] <noun>
+[ 515] @ $4327 seen    [41 b8 00] <verb>
+[ 516] @ $432e sergea  [22 8b 00] <adj>
+[ 517] @ $4335 servan  [22 c5 00] <adj>
+[ 518] @ $433c set     [80 01 00] <noun>
+[ 519] @ $4343 sgt     [22 8a 00] <adj>
+[ 520] @ $434a shade   [41 de 00] <verb>
+[ 521] @ $4351 shard   [80 01 00] <noun>
+[ 522] @ $4358 shaver  [80 01 00] <noun>
+[ 523] @ $435f she     [80 01 00] <noun>
+[ 524] @ $4366 sheets  [80 01 00] <noun>
+[ 525] @ $436d shelf   [80 01 00] <noun>
+[ 526] @ $4374 shelve  [80 01 00] <noun>
+[ 527] @ $437b shit    [41 af 00] <verb>
+[ 528] @ $4382 shoe    [a2 be 01] <adj> <noun>
+[ 529] @ $4389 shoes   [80 01 00] <noun>
+[ 530] @ $4390 shoot   [c0 01 e3] <verb> <noun>
+[ 531] @ $4397 shooti  [80 01 00] <noun>
+[ 532] @ $439e shop    [a2 a0 01] <adj> <noun>
+[ 533] @ $43a5 shot    [80 01 00] <noun>
+[ 534] @ $43ac show    [c0 01 e4] <verb> <noun>
+[ 535] @ $43b3 shower  [a2 e0 01] <adj> <noun>
+[ 536] @ $43ba shrine  [80 01 00] <noun>
+[ 537] @ $43c1 shut    [41 f2 00] <verb>
+[ 538] @ $43c8 side    [22 f9 00] <adj>
+[ 539] @ $43cf side-   [22 fa 00] <adj>
+[ 540] @ $43d6 silver  [80 01 00] <noun>
+[ 541] @ $43dd simple  [22 b5 00] <adj>
+[ 542] @ $43e4 sink    [80 01 00] <noun>
+[ 543] @ $43eb sit     [41 e5 00] <verb>
+[ 544] @ $43f2 skim    [41 d9 00] <verb>
+[ 545] @ $43f9 slap    [41 e6 00] <verb>
+[ 546] @ $4400 slowly  [04 e5 00] <special>
+[ 547] @ $4407 smash   [41 b0 00] <verb>
+[ 548] @ $440e smell   [41 e7 00] <verb>
+[ 549] @ $4415 smoke   [c0 01 e8] <verb> <noun>
+[ 550] @ $441c smooth  [22 ee 00] <adj>
+[ 551] @ $4423 snack   [80 01 00] <noun>
+[ 552] @ $442a sniff   [41 e7 00] <verb>
+[ 553] @ $4431 snub-   [22 86 00] <adj>
+[ 554] @ $4438 sofa    [80 01 00] <noun>
+[ 555] @ $443f south   [13 1e 00] <dir>
+[ 556] @ $4446 souven  [80 01 00] <noun>
+[ 557] @ $444d space   [41 e9 00] <verb>
+[ 558] @ $4454 spade   [80 01 00] <noun>
+[ 559] @ $445b spigot  [80 01 00] <noun>
+[ 560] @ $4462 spool   [80 01 00] <noun>
+[ 561] @ $4469 spools  [80 01 00] <noun>
+[ 562] @ $4470 sport   [22 a6 00] <adj>
+[ 563] @ $4477 sporty  [22 a5 00] <adj>
+[ 564] @ $447e stand   [41 c7 00] <verb>
+[ 565] @ $4485 stare   [41 cc 00] <verb>
+[ 566] @ $448c startl  [41 fb 00] <verb>
+[ 567] @ $4493 stay    [41 fa 00] <verb>
+[ 568] @ $449a steal   [41 ec 00] <verb>
+[ 569] @ $44a1 stiles  [a0 01 8f] <adj> <noun>
+[ 570] @ $44a8 stomac  [22 66 00] <adj>
+[ 571] @ $44af stone   [22 d5 00] <adj>
+[ 572] @ $44b6 stop    [41 fa 00] <verb>
+[ 573] @ $44bd storag  [22 bc 00] <adj>
+[ 574] @ $44c4 strang  [80 01 00] <noun>
+[ 575] @ $44cb strike  [41 ea 00] <verb>
+[ 576] @ $44d2 stub    [80 01 00] <noun>
+[ 577] @ $44d9 stuff   [41 d5 00] <verb>
+[ 578] @ $44e0 suicid  [80 01 00] <noun>
+[ 579] @ $44e7 super   [41 eb 00] <verb>
+[ 580] @ $44ee superb  [41 eb 00] <verb>
+[ 581] @ $44f5 surpri  [41 fb 00] <verb>
+[ 582] @ $44fc suspen  [41 df 00] <verb>
+[ 583] @ $4503 swallo  [c0 01 b2] <verb> <noun>
+[ 584] @ $450a swingi  [22 cb 00] <adj>
+[ 585] @ $4511 t       [41 f1 00] <verb>
+[ 586] @ $4518 table   [80 01 00] <noun>
+[ 587] @ $451f tables  [80 01 00] <noun>
+[ 588] @ $4526 take    [41 ec 00] <verb>
+[ 589] @ $452d talk    [41 e0 00] <verb>
+[ 590] @ $4534 tall    [22 af 00] <adj>
+[ 591] @ $453b taunt   [41 c2 00] <verb>
+[ 592] @ $4542 teache  [22 81 00] <adj>
+[ 593] @ $4549 telegr  [80 01 00] <noun>
+[ 594] @ $4550 teleph  [a0 01 69] <adj> <noun>
+[ 595] @ $4557 tell    [41 ed 00] <verb>
+[ 596] @ $455e ten     [80 01 00] <noun>
+[ 597] @ $4565 terry   [80 01 00] <noun>
+[ 598] @ $456c test    [41 a1 00] <verb>
+[ 599] @ $4573 testam  [80 01 00] <noun>
+[ 600] @ $457a thank   [41 ee 00] <verb>
+[ 601] @ $4581 thanks  [41 ee 00] <verb>
+[ 602] @ $4588 the     [04 fd 00] <special>
+[ 603] @ $458f them    [80 01 00] <noun>
+[ 604] @ $4596 then    [04 f7 00] <special>
+[ 605] @ $459d there   [41 b8 00] <verb>
+[ 606] @ $45a4 they    [80 01 00] <noun>
+[ 607] @ $45ab thick   [22 f7 00] <adj>
+[ 608] @ $45b2 thicke  [80 01 00] <noun>
+[ 609] @ $45b9 thirty  [80 01 00] <noun>
+[ 610] @ $45c0 threat  [a2 7b 01] <adj> <noun>
+[ 611] @ $45c7 three   [80 01 00] <noun>
+[ 612] @ $45ce throne  [80 01 00] <noun>
+[ 613] @ $45d5 throug  [08 f0 00] <prep>
+[ 614] @ $45dc throw   [41 ef 00] <verb>
+[ 615] @ $45e3 thru    [08 f0 00] <prep>
+[ 616] @ $45ea ticket  [a0 01 63] <adj> <noun>
+[ 617] @ $45f1 tie     [41 f0 00] <verb>
+[ 618] @ $45f8 till    [08 ec 00] <prep>
+[ 619] @ $45ff time    [41 f1 00] <verb>
+[ 620] @ $4606 to      [08 fc 00] <prep>
+[ 621] @ $460d toaste  [80 01 00] <noun>
+[ 622] @ $4614 today   [80 01 00] <noun>
+[ 623] @ $461b toilet  [a0 01 df] <adj> <noun>
+[ 624] @ $4622 tools   [80 01 00] <noun>
+[ 625] @ $4629 toothp  [80 01 00] <noun>
+[ 626] @ $4630 toss    [41 ef 00] <verb>
+[ 627] @ $4637 touch   [41 de 00] <verb>
+[ 628] @ $463e towel   [80 01 00] <noun>
+[ 629] @ $4645 towels  [80 01 00] <noun>
+[ 630] @ $464c trace   [41 ba 00] <verb>
+[ 631] @ $4653 trade   [22 70 00] <adj>
+[ 632] @ $465a tub     [a2 e3 01] <adj> <noun>
+[ 633] @ $4661 tug     [41 d3 00] <verb>
+[ 634] @ $4668 tumor   [80 01 00] <noun>
+[ 635] @ $466f turn    [41 f2 00] <verb>
+[ 636] @ $4676 twenty  [80 01 00] <noun>
+[ 637] @ $467d two     [80 01 00] <noun>
+[ 638] @ $4684 u       [08 f9 00] <prep>
+[ 639] @ $468b unatta  [41 f6 00] <verb>
+[ 640] @ $4692 uncuff  [41 f6 00] <verb>
+[ 641] @ $4699 under   [08 f5 00] <prep>
+[ 642] @ $46a0 undern  [08 f5 00] <prep>
+[ 643] @ $46a7 unfast  [41 f6 00] <verb>
+[ 644] @ $46ae unhook  [41 f6 00] <verb>
+[ 645] @ $46b5 unlock  [41 f3 00] <verb>
+[ 646] @ $46bc unscri  [41 f4 00] <verb>
+[ 647] @ $46c3 unspac  [41 f5 00] <verb>
+[ 648] @ $46ca untie   [41 f6 00] <verb>
+[ 649] @ $46d1 until   [08 eb 00] <prep>
+[ 650] @ $46d8 up      [08 f9 00] <prep>
+[ 651] @ $46df use     [41 f7 00] <verb>
+[ 652] @ $46e6 using   [08 fa 00] <prep>
+[ 653] @ $46ed vegeta  [80 01 00] <noun>
+[ 654] @ $46f4 velvet  [22 ab 00] <adj>
+[ 655] @ $46fb verbos  [41 f8 00] <verb>
+[ 656] @ $4702 versio  [41 f9 00] <verb>
+[ 657] @ $4709 violet  [22 9c 00] <adj>
+[ 658] @ $4710 virgin  [a0 01 73] <adj> <noun>
+[ 659] @ $4717 visito  [80 01 00] <noun>
+[ 660] @ $471e volume  [80 01 00] <noun>
+[ 661] @ $4725 w       [13 1c 00] <dir>
+[ 662] @ $472c wait    [41 fa 00] <verb>
+[ 663] @ $4733 wake    [41 fb 00] <verb>
+[ 664] @ $473a walk    [41 fc 00] <verb>
+[ 665] @ $4741 wall    [80 01 00] <noun>
+[ 666] @ $4748 walls   [80 01 00] <noun>
+[ 667] @ $474f warran  [80 01 00] <noun>
+[ 668] @ $4756 was     [04 df 00] <special>
+[ 669] @ $475d water   [80 01 00] <noun>
+[ 670] @ $4764 way     [80 01 00] <noun>
+[ 671] @ $476b weathe  [80 01 00] <noun>
+[ 672] @ $4772 weed    [80 01 00] <noun>
+[ 673] @ $4779 were    [04 de 00] <special>
+[ 674] @ $4780 west    [13 1c 00] <dir>
+[ 675] @ $4787 what    [41 fd 00] <verb>
+[ 676] @ $478e what'   [41 fd 00] <verb>
+[ 677] @ $4795 whats   [41 fd 00] <verb>
+[ 678] @ $479c when    [41 fe 00] <verb>
+[ 679] @ $47a3 where   [41 b8 00] <verb>
+[ 680] @ $47aa whiske  [80 01 00] <noun>
+[ 681] @ $47b1 whisky  [80 01 00] <noun>
+[ 682] @ $47b8 white   [22 6e 00] <adj>
+[ 683] @ $47bf who     [41 fd 00] <verb>
+[ 684] @ $47c6 why     [41 fe 00] <verb>
+[ 685] @ $47cd wife    [80 01 00] <noun>
+[ 686] @ $47d4 will    [80 01 00] <noun>
+[ 687] @ $47db wind    [80 01 00] <noun>
+[ 688] @ $47e2 window  [80 01 00] <noun>
+[ 689] @ $47e9 wipe    [41 a8 00] <verb>
+[ 690] @ $47f0 wire    [a2 f0 01] <adj> <noun>
+[ 691] @ $47f7 wires   [80 01 00] <noun>
+[ 692] @ $47fe with    [08 fa 00] <prep>
+[ 693] @ $4805 woman   [80 01 00] <noun>
+[ 694] @ $480c wood    [22 d4 00] <adj>
+[ 695] @ $4813 wooden  [22 c3 00] <adj>
+[ 696] @ $481a woods   [80 01 00] <noun>
+[ 697] @ $4821 work    [22 eb 00] <adj>
+[ 698] @ $4828 worksh  [a2 a1 01] <adj> <noun>
+[ 699] @ $482f worm    [80 01 00] <noun>
+[ 700] @ $4836 worms   [80 01 00] <noun>
+[ 701] @ $483d wound   [80 01 00] <noun>
+[ 702] @ $4844 writer  [80 01 00] <noun>
+[ 703] @ $484b writin  [80 01 00] <noun>
+[ 704] @ $4852 writte  [22 7d 00] <adj>
+[ 705] @ $4859 wrong   [80 01 00] <noun>
+[ 706] @ $4860 y       [41 ff 00] <verb>
+[ 707] @ $4867 yellow  [22 9d 00] <adj>
+[ 708] @ $486e yes     [41 ff 00] <verb>
+[ 709] @ $4875 you     [04 e1 00] <special>
+[ 710] @ $487c young   [22 8e 00] <adj>
+[ 711] @ $4883 your    [24 dd 91] <adj> <special>
+[ 712] @ $488a yourse  [80 01 00] <noun>
+[ 713] @ $4891 z       [41 fa 00] <verb>
+[ 714] @ $4898 zzkjlk  [80 01 00] <noun>
