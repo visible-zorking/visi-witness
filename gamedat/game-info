@@ -1,0 +1,30 @@
+# Maps game file indexes to ZIL source code names.
+# Also some other kinds of info.
+#
+# This information was compiled manually; there is no simple way to
+# extract it from the source and game file. (Everything that could
+# be extracted automatically is handled by pyana. Which loads this info
+# to orient itself.)
+#
+# Much of this work was done by Allen Garvin et al in 2007:
+#   https://ifarchive.org/indexes/if-archive/infocom/tools/reform/
+# However, they didn't have the source code names, so I have done
+# additional work in matching up to the ZIL code.
+
+# Functions (high memory): $4A8E
+# Strings (high memory): $17E34
+
+# Source files in arbitrary (alphabetical) order.
+# The second number is the order that code is generated in the game file.
+# (Which is, usually, the same order that the files are included.)
+SourceFile 1 clock.zil     7
+SourceFile 2 events.zil    11
+SourceFile 3 macros.zil    2
+SourceFile 4 main.zil      8
+SourceFile 5 parser.zil    9
+SourceFile 6 people.zil    5
+SourceFile 7 places.zil    4
+SourceFile 8 syntax.zil    3
+SourceFile 9 things.zil    6
+SourceFile 10 verbs.zil    10
+SourceFile 11 witness.zil  1
