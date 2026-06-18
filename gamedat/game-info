@@ -28,3 +28,13 @@ SourceFile 8 syntax.zil    3
 SourceFile 9 things.zil    6
 SourceFile 10 verbs.zil    10
 SourceFile 11 witness.zil  1
+
+
+
+# Map connections that don't come directly from room properties.
+# (These are used for the "list rooms in order of closeness to you"
+# display tab.)
+
+# LIMBO isn't a real room, so we map it last (using the DISTANT special
+# direction). (Weirdly it has an exit *to* DRIVEWAY-ENTRANCE already.)
+MapExtraConn - DRIVEWAY-ENTRANCE DISTANT LIMBO
