@@ -11,7 +11,7 @@ export function contains_label(obj: ObjectData) : string
 {
     if (!obj.isroom) {
         // ...or other NPCs
-        if (obj.onum == gamedat_ids.ADVENTURER)
+        if (obj.onum == gamedat_ids.PLAYER)
             return 'carries';
         else
             return 'contains'
@@ -21,7 +21,7 @@ export function contains_label(obj: ObjectData) : string
 
 export function sorter_for_key(key: number, zstate: ZStatePlus) : (roots:ZObject[], map:Map<number, ZObject>) => void
 {
-    let originobj: number = gamedat_ids.ADVENTURER;
+    let originobj: number = gamedat_ids.PLAYER;
 
     return function(roots: ZObject[], map: Map<number, ZObject>) {
         let advroom = originobj;

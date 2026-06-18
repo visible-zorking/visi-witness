@@ -23,6 +23,8 @@ const tab_list = [
     [ 'timers', 'Timers' ],
     [ 'grammar', 'Grammar' ],
     [ 'filelist', 'Files' ],
+    //[ 'feelies', 'Feelies' ]
+    //[ 'solution', 'Solution' ],,
     [ 'about', '?' ],
 ];
 
