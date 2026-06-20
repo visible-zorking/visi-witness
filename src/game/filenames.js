@@ -1,0 +1,3 @@
+window.gamedat_sourcefile_keymap = {"clock.zil":"A","events.zil":"B","macros.zil":"C","main.zil":"D","parser.zil":"E","people.zil":"F","places.zil":"G","syntax.zil":"H","things.zil":"I","verbs.zil":"J","witness.zil":"K"};
+window.gamedat_sourcefile_capkeymap = {"CLOCK":"A","EVENTS":"B","MACROS":"C","MAIN":"D","PARSER":"E","PEOPLE":"F","PLACES":"G","SYNTAX":"H","THINGS":"I","VERBS":"J","WITNESS":"K"};
+window.gamedat_sourcefile_revkeymap = {"A":"clock.zil","B":"events.zil","C":"macros.zil","D":"main.zil","E":"parser.zil","F":"people.zil","G":"places.zil","H":"syntax.zil","I":"things.zil","J":"verbs.zil","K":"witness.zil"};
