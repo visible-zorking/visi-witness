@@ -1047,7 +1047,7 @@ important questions that you can't ask directly.)" CR>
 	 <SETG P-ADJ <>>
 	 <RFALSE>)
 	(<0? .LEN> <SET GCHECK T> <AGAIN>)>
-  ;"***VZ: The r23+ source had code here to print '(I assume you mean
+  ;"***VZ: The r23+ source added code here to print '(I assume you mean
     the OBJ)' in some cases.***"
   <SETG P-SLOCBITS .XBITS>
   <SETG P-NAM <>>
