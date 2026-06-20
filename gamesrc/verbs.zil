@@ -212,7 +212,8 @@ CR>)>>
 
 ;"***VZ: In the r23+ source, the 'INTERLOGIC' trademark was deleted. The
   tagline was changed to 'Infocom interactive fiction - a mystery story'.
-  Also, the TANDY check and license message were commented out.***"
+  'Revision number' was changed to 'Release number'. Also, the
+  TANDY check and license message were commented out.***"
 <ROUTINE V-VERSION ("AUX" (CNT 17))
 	 <TELL
 "The WITNESS: An INTERLOGIC Mystery|
