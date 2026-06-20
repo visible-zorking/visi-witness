@@ -1047,11 +1047,8 @@ important questions that you can't ask directly.)" CR>
 	 <SETG P-ADJ <>>
 	 <RFALSE>)
 	(<0? .LEN> <SET GCHECK T> <AGAIN>)>
-  <COND (<AND ,P-ADJ <NOT ,P-NAM>>
-	 <TELL "(I assume you mean">
-	 <SET OBJ <GET .TBL <+ .TLEN 1>>>
-	 <THE? .OBJ>
-	 <TELL " " D .OBJ ".)" CR>)>
+  ;"***VZ: The r23+ source had code here to print '(I assume you mean
+    the OBJ)' in some cases.***"
   <SETG P-SLOCBITS .XBITS>
   <SETG P-NAM <>>
   <SETG P-ADJ <>>
