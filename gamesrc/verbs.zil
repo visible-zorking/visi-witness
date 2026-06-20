@@ -962,7 +962,9 @@ goes dead." CR>)
 <ROUTINE V-DRINK ()
 	 <V-EAT>>
 
-;<ROUTINE PRE-DROP ()
+;"***VZ: This routine was commented out in the r23 source. It is compiled
+  in the r23 game file, although it is not used in any known version.***"
+<ROUTINE PRE-DROP ()
 	 <COND (<==? ,PRSO <META-LOC ,WINNER>>
 		<PERFORM ,V?WALK ,P?OUT>
 		<RTRUE>)>>
@@ -1001,7 +1003,9 @@ goes dead." CR>)
 	<PERFORM ,V?WALK ,P?IN>
 	<RTRUE>>
 
-;<ROUTINE PRE-THROUGH ()		;"WALK WITH => FOLLOW"
+;"***VZ: This routine was commented out in the r23 source. It is compiled
+  in the r23 game file, although it is not used in any known version.***"
+<ROUTINE PRE-THROUGH ()		;"WALK WITH => FOLLOW"
  <COND (<FSET? ,PRSO ,PERSON> <PERFORM ,V?FOLLOW ,PRSO> <RTRUE>)>>
 
 <ROUTINE V-THROUGH ("OPTIONAL" (OBJ <>) "AUX" RM ;M DIR ;PT ;PTS)

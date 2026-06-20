@@ -11,7 +11,7 @@ Copyright (C) 1983 Infocom, Inc.  All rights reserved."
 
   I have attempted to reconstruct the source code *as of the latest r23
   compile* by reverting all source changes that don't match the game file.
-  See '***VZ:***' comments below.
+  See '***VZ:***' comments in these files.
 
   It is likely that I missed a few spots, and my formatting is mostly
   guesswork.
