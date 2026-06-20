@@ -218,8 +218,8 @@ CR>)>>
 "The WITNESS: An INTERLOGIC Mystery|
 Copyright (c) 1983 Infocom, Inc.  All rights reserved.|
 ">
-	 ;<COND (<TANDY?>
-		<TELL "Licensed to Tandy Corporation." CR>)>
+	 <COND (<TANDY?>
+		<TELL "Licensed to Tandy Corporation.|">)>
 	 <TELL "WITNESS and INTERLOGIC are trademarks of Infocom, Inc.|
 Revision number ">
 	 <PRINTN <BAND <GET 0 1> *3777*>>
