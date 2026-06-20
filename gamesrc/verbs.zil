@@ -1269,13 +1269,14 @@ D ,PRSO "!" CR>)
 		     D .P "." CR>)>)
        (T <TELL "It's not clear who you're talking to." CR>)>>
 
+;"***VZ: The r23+ source added the message: 'If you really need help, you
+  can order an InvisiClues Hint Booklet and a complete map by using the
+  order form that came in your package.'***"
 <ROUTINE V-HELP ()
  <COND (<ZERO? ,PRSO>
 	<TELL
-"(You'll find plenty of help in your instruction manual."
-;"Nat'l Detective Gazette" CR
-"If you really need help, you can order an InvisiClues Hint Booklet
-and a complete map by using the order form that came in your package.)" CR>)
+"(You'll find plenty of help in your instruction manual.)"
+;"Nat'l Detective Gazette" CR>)
        (<DOBJ? PLAYER> <PERFORM ,V?GIVE ,HINT ,PLAYER> <RTRUE>)
        (T <TELL "You'll have to be more specific." CR>)>>
 
