@@ -210,16 +210,18 @@ CR>)>>
 
 <ROUTINE TANDY? () <NOT <==? <BAND <GETB 0 1> 8> 0>>>
 
+;"***VZ: In the r23+ source, the 'INTERLOGIC' trademark was deleted. The
+  tagline was changed to 'Infocom interactive fiction - a mystery story'.
+  Also, the TANDY check and license message were commented out.***"
 <ROUTINE V-VERSION ("AUX" (CNT 17))
 	 <TELL
-"The WITNESS
-Infocom interactive fiction - a mystery story|
-Copyright (c) 1983 by Infocom, Inc.  All rights reserved.|
+"The WITNESS: An INTERLOGIC Mystery|
+Copyright (c) 1983 Infocom, Inc.  All rights reserved.|
 ">
 	 ;<COND (<TANDY?>
 		<TELL "Licensed to Tandy Corporation." CR>)>
-	 <TELL "The WITNESS is a registered trademark of Infocom, Inc.|
-Release number ">
+	 <TELL "WITNESS and INTERLOGIC are trademarks of Infocom, Inc.|
+Revision number ">
 	 <PRINTN <BAND <GET 0 1> *3777*>>
 	 <TELL " / Serial number ">
 	 <REPEAT ()
@@ -962,7 +964,7 @@ goes dead." CR>)
 <ROUTINE V-DRINK ()
 	 <V-EAT>>
 
-;"***VZ: This routine was commented out in the r23 source. It is compiled
+;"***VZ: This routine was commented out in the r23+ source. It is compiled
   in the r23 game file, although it is not used in any known version.***"
 <ROUTINE PRE-DROP ()
 	 <COND (<==? ,PRSO <META-LOC ,WINNER>>
@@ -1003,7 +1005,7 @@ goes dead." CR>)
 	<PERFORM ,V?WALK ,P?IN>
 	<RTRUE>>
 
-;"***VZ: This routine was commented out in the r23 source. It is compiled
+;"***VZ: This routine was commented out in the r23+ source. It is compiled
   in the r23 game file, although it is not used in any known version.***"
 <ROUTINE PRE-THROUGH ()		;"WALK WITH => FOLLOW"
  <COND (<FSET? ,PRSO ,PERSON> <PERFORM ,V?FOLLOW ,PRSO> <RTRUE>)>>
