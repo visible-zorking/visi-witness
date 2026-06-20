@@ -280,6 +280,66 @@ Object 248 GLOBAL-OBJECTS
 Object 249 GLOBAL-ROOM
 Object 250 ROOMS
 
+# Attribute X AN
+# Attribute X CONTBIT
+# Attribute X DOORBIT
+# Attribute X DRINKBIT
+# Attribute X FEMALE
+# Attribute X FOODBIT
+# Attribute X FURNITURE
+# Attribute X INVISIBLE
+# Attribute X LIGHTBIT
+# Attribute X LOCKED
+# Attribute X NDESCBIT
+# Attribute X ON-NOT-IN
+# Attribute X ONBIT
+# Attribute X OPENBIT
+# Attribute X PERSON
+# Attribute X READBIT
+# Attribute X RLANDBIT
+# Attribute X RMUNGBIT
+# Attribute X SEARCHBIT
+# Attribute X SURFACEBIT
+# Attribute X TAKEBIT
+# Attribute X TOOLBIT
+# Attribute X TOUCHBIT
+# Attribute X TRANSBIT
+# Attribute X TRYTAKEBIT
+# Attribute X VEHBIT
+# Attribute X WEAPONBIT
+# Attribute X WINDOWBIT
+
+# Property X ACTION
+# Property X ADJECTIVE
+# Property X CAPACITY
+# Property X CHARACTER
+# Property X CONTFCN
+# Property X CORRIDOR
+# Property X DESCFCN
+# Property X DOWN
+# Property X EAST
+# Property X FDESC
+# Property X GENERIC
+# Property X GLOBAL
+# Property X IN
+# Property X LDESC
+# Property X LINE
+# Property X NE
+# Property X NORTH
+# Property X NW
+# Property X OUT
+# Property X PSEUDO
+# Property X SE
+# Property X SIZE
+# Property X SOUTH
+# Property X STATION
+# Property X SW
+# Property X SYNONYM
+# Property X TEXT
+# Property X UP
+# Property X WEST
+# Property X XDESC
+
 Global 0 HERE
 Global 1 SCORE
 Global 2 MOVES
