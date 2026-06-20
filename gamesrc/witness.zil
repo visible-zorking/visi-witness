@@ -1,6 +1,23 @@
 "COMPILE/LOAD FILE for WITNESS
 Copyright (C) 1983 Infocom, Inc.  All rights reserved."
 
+;"*** VISIBLE ZORKER NOTE***
+  The archived Witness source does not exactly match the r23 game file
+  (even though they were found together). The source code contains a few
+  changes which were never compiled.
+
+  (We should also note that Witness r23 was not a release version! It
+  was a "final development" version and may contain undetected bugs.)
+
+  I have attempted to reconstruct the source code *as of the latest r23
+  compile* by reverting all source changes that don't match the game file.
+  See '***VZ:***' comments below.
+
+  It is likely that I missed a few spots, and my formatting is mostly
+  guesswork.
+  [--zarf, 2026/06/20]
+  *** END NOTE ***"
+
 <COND (<GASSIGNED? PREDGEN>
        <SETG ZSTR-ON <SETG ZSTR-OFF ,TIME>>
        <PRINC "Compiling">
