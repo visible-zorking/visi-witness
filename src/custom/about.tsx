@@ -1,0 +1,295 @@
+import React from 'react';
+import { useContext } from 'react';
+
+import { gamedat_ids, gamedat_object_ids, gamedat_routine_names } from '../visi/gamedat';
+import { ZObject } from '../visi/zstate';
+
+import { ReactCtx } from '../visi/context';
+import { ObjPageLink, Commentary } from '../visi/widgets';
+
+export function AboutPage()
+{
+    let rctx = useContext(ReactCtx);
+    let zstate = rctx.zstate;
+
+    let lastupdate = '__VISIZORKDATE__';
+        
+    let curroom = '???';
+    let firstobj = '';
+
+    let map: Map<number, ZObject> = new Map();
+    for (let tup of zstate.objects) {
+        map.set(tup.onum, tup);
+    }
+    
+    let advroom: number = gamedat_ids.PLAYER;
+    while (true) {
+        let tup = map.get(advroom);
+        if (!tup || tup.parent == 0 || tup.parent == gamedat_ids.ROOMS)
+            break;
+        advroom = tup.parent;
+    }
+
+    if (advroom != gamedat_ids.PLAYER) {
+        let obj = gamedat_object_ids.get(advroom);
+        if (obj) {
+            curroom = obj.name;
+        }
+
+        let child = map.get(advroom)!.child;
+        if (child && child == gamedat_ids.PLAYER) {
+            child = map.get(child)!.sibling;
+        }
+
+        if (child) {
+            let cobj = gamedat_object_ids.get(child);
+            if (cobj) {
+                firstobj = cobj.desc.toUpperCase();
+            }
+        }
+        else if (obj && obj.scenery && obj.scenery.length) {
+            let cobj = gamedat_object_ids.get(obj.scenery[0]);
+            if (cobj) {
+                firstobj = cobj.desc.toUpperCase();
+            }
+        }
+    }
+    
+    function evhan_click_tab(ev: React.MouseEvent<HTMLAnchorElement, MouseEvent>, tab: string) {
+        ev.preventDefault();
+        rctx.setTab(tab);
+    }
+    
+    function evhan_click_routine(ev: React.MouseEvent<HTMLAnchorElement, MouseEvent>, rtn: string) {
+        ev.preventDefault();
+        let funcdat = gamedat_routine_names.get(rtn);
+        if (funcdat) {
+            rctx.setLoc(funcdat.sourceloc, false);
+        }
+    }
+    
+    return (
+        <div className="ScrollContent">
+            <div className="AboutPage">
+                <h2>What&#x2019;s going on?</h2>
+                <p>
+                    You are playing <i>The Witness</i>, the classic Infocom text adventure.
+                    And you are watching the Z-machine execute the game,
+                    live, as you play.
+                </p>
+                <p>
+                    (In case it&#x2019;s not obvious: <em>SPOILERS</em> for <i>The Witness</i>.
+                    The source code gives away every secret and solution in the game.
+                    The whole point of this project is to demonstrate how
+                    Infocom games work!)
+                </p>
+                <p>
+                    Type commands in the left pane. (If you&#x2019;re not familiar
+                    with parser games,{' '}
+                    <ExtWebLink url={ 'https://pr-if.org/doc/play-if-card/' } text={ 'here\u2019s a quick intro' } />.)
+                    As the game responds, the panes on the right will display
+                    the current game state and the code that is
+                    executing.
+                </p>
+                <p>
+                    Look at the
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'objtree') }>World</a>{' '}
+                    tab for a start.
+                    This shows every object and room in the game.
+                    You, the Player, are in the topmost room:{' '}
+                    <code>{ curroom }</code>.
+                    Listed with you are the objects you
+                    can see.{' '}
+                    { (firstobj ?
+                       <>(Try typing &#x201C;<code>EXAMINE { firstobj }</code>&#x201D;!) </>
+                       : null) }
+                    Objects you pick up will be listed directly under
+                    the <code>PLAYER</code>; they will move with
+                    you as part of your inventory.
+                </p>
+                <p>
+                    The other tabs display other aspects of the Z-machine.
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'activity') }>Activity</a>{' '}
+                    shows the functions called in
+                    the most recent turn, and what they printed.
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'globals') }>State</a>{' '}
+                    shows all the game&#x2019;s global variables.
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'timers') }>Timers</a>{' '}
+                    shows the table of timed events.
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'schedule') }>Schedule</a>{' '}
+                    shows the tables that determine what the characters do
+                    all day.
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'grammar') }>Grammar</a>{' '}
+                    shows the parse table.
+                    {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'map') }>Map</a>{' '}
+                    is what you think.                    
+                </p>
+                <p>
+                    Click on any function, object, or variable to see its
+                    definition in the source code. Click on an object&#x2019;s
+                    {' '}<ObjPageLink onum={ 160 } /> button
+                    to see its current state and place in the world.
+                    (This will initially match the source code, but
+                    may change as you interact with the game.)
+                </p>
+                <p>
+                    <Commentary topic={ 'ABOUT' } />
+                    Click on the green buttons to see commentary about
+                    <i>The Witness</i>&#x2019;s implementation. Notes, trivia, whatever came
+                    into my head as I was building the Visible Zorker!
+                </p>
+                <h2>The evidence file</h2>
+                <p>
+                    The <a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'feelies') }>Feelies</a>{' '}
+                    tab is particularly important. <i>The Witness</i> originally came
+                    with a &#x201C;Documentary Evidence&#x201D; file.
+                    (An actual file dossier with memos and photos and an
+                    evidence bag of pills!)
+                    This provided your introduction to the mystery,
+                    the background of many of the characters, and evidence
+                    you need to begin your investigation. The Feelies tab
+                    contains links to these documents.
+                </p>
+                <p>
+                    It also explains some specialized commands you&#x2019;ll
+                    need, like <code>FINGERPRINT</code>.
+                </p>
+                <h2>The solution tab</h2>
+                <p>
+                    <Commentary topic={ 'ABOUT-SOLUTION' } />
+                    There is no Solution tab.
+                </p>
+                <h2>Which version is this?</h2>
+                <p>
+                    <i>The Witness</i> was the first non-Zork game created by Infocom.
+                    As with Zork, it was built using a proprietary system
+                    called{' '}
+                    <ExtWebLink url={ 'https://blog.zarfhome.com/2019/04/what-is-zil-anyway' } text={ 'ZIL' } />.
+                    (For &#x201C;Zork Implementation Language&#x201D;.)
+                </p>
+                <p>
+                    The game was originally released in 1982.
+                    The version you see here dates from 1983. (The serial number
+                    &#x201C;831005&#x201D; shows the compile date.)
+                </p>
+                <p>
+                    This 1983 release is
+                    the one most commonly seen today,
+                    because it was included in the &#x201C;
+                    <ExtWebLink url={ 'https://archive.org/details/lost-treasures-of-infocom' } text={ 'Lost Treasures of Infocom' } />
+                    &#x201D; collection and later collections.
+                    I have therefore selected it for this exhibit.
+                    Archived evidence indicates that Infocom continued
+                    updating the source until at least 1985.
+                </p>
+                <h2>Sources and acknowledgements</h2>
+                <p>
+                    The game&#x2019;s source code was first{' '}
+                    <ExtWebLink url={ 'https://github.com/historicalsource/witness' } text={ 'publicly released' } />
+                    {' '}by Jason Scott in April 2019.
+                    I then combed through all known versions and posted my{' '}
+                    <ExtWebLink url={ 'https://eblong.com/infocom/' } text={ 'Obsessively Complete Infocom Catalog' } />,
+                    which now includes this Visible Zorker exhibition.
+                </p>
+                <p>
+                    The Visible Zorker is built on a seriously customized
+                    version of the{' '}
+                    <ExtWebLink url={ 'https://github.com/curiousdannii/parchment' } text={ 'Parchment' } /> Z-machine interpreter
+                    by Marnanel Thurman, Atul Varma, and Dannii Willis.
+                    You can find this, and the rest of the Visible Zorker
+                    machinery, on{' '}
+                    <ExtWebLink url={ 'https://github.com/visible-zorking/visi-zork3' } text={ 'Github' } />.
+                </p>
+                <p>
+                    I used TXD from the{' '}
+                    <ExtWebLink url={ 'https://ifarchive.org/indexes/if-archive/infocom/tools/ztools/' } text={ 'ZTools' } />
+                    {' '}package to analyze the game file. That
+                    process was invaluably aided by the{' '}
+                    <ExtWebLink url={ 'https://ifarchive.org/indexes/if-archive/infocom/tools/reform/' } text={ 'Infocom analysis work' } />
+                    {' '}done in 2007 by Allen Garvin, Ben Rudiak-Gould,
+                    and Ethan Dicks.
+                </p>
+                <p>
+                    The fonts used are Courier Prime, Lato, and
+                    Libre Baskerville. The header background is copied from
+                    Infocom&#x2019;s Zork hint maps.
+                </p>
+                <p>
+                    Feelie scans courtesy of the{' '}
+                    <ExtWebLink url={ 'https://infodoc.plover.net/manuals/' } text={ 'InfoDoc Project' } />
+                    {' '}and my own collection.
+                    See also the Internet Archive (###).
+                </p>
+                <p>
+                    <i>The Witness</i> itself was originally written by Stu Galley.
+                    It is copyright 1983 (etc) by Infocom,
+                    then Activision, then renamed to Mediagenic,
+                    then Bobby Kotick bought it and renamed it Activision,
+                    then Vivendi bought it and merged it with Blizzard,
+                    then Microsoft consumed the lot.
+                </p>
+                <p>
+                    Thus, the <i>The Witness</i> source code is copyright 2025 by
+                    Microsoft. Microsoft has not released this game as
+                    open source, but I&#x2019;m going at it regardless.
+                </p>
+                <p>
+                    Aside from the above, the Visible Zorker is copyright
+                    2025-2026 by Andrew Plotkin. MIT license;{' '}
+                    <ExtWebLink url={ 'https://github.com/visible-zorking/visi-witness' } text={ 'Github repo' } />.
+                </p>
+                <h2>Patreon supporters</h2>
+                <ul className="PatreonList">
+                    <li>
+                        <b>Fancy contributors:</b>{' '}
+                        <NameList level="Fancy Contributor" />
+                    </li>
+                    <li>
+                        <b>Contributors:</b>{' '}
+                        <NameList level="Contributor" />
+                    </li>
+                    <li className="Small">
+                        <b>Participants:</b>{' '}
+                        <NameList level="Participant" />
+                    </li>
+                    <li className="Smaller">
+                        <b>Supporters:</b>{' '}
+                        <NameList level="Supporter" />
+                    </li>
+                </ul>
+                <hr/>
+                <p>
+                    Last updated <b>{ lastupdate }</b>.
+                    This exhibit is hosted by the{' '}
+                    <ExtWebLink url={ 'https://eblong.com/infocom/' } text={ 'Obsessively Complete Infocom Catalog' } />.
+                </p>
+            </div>
+        </div>
+    );
+}
+
+export function ExtWebLink({ url, text }: { url:string, text:string })
+{
+    return (
+        <a className="External" target="_blank" href={ url }>{ text }</a>
+    );
+}
+
+function NameList({ level }: { level:string })
+{
+    let names = patreon_donors[level];
+
+    if (!names || names.length == 0) {
+        return <></>;
+    }
+
+    let text = names.join(', ');
+    return <span>{ text }</span>;
+}
+
+const patreon_donors: { [key: string]: string[] } = {
+    "Contributor": ["Ben Cressey", "Brad Jones", "Christopher Cotton", "Jeff Nyman", "John Leen", "Matthew Murray", "Paul Mazaitis", "Peter Berger", "Petter Sj\u00f6lund"],
+    "Fancy Contributor": ["David Rheingold"],
+    "Participant": ["Aaron Reed", "Adam B", "Adam Thornton", "Alex Seubert", "Aneel Nazareth", "arcanetrivia", "chad royal", "Chris Spiegel", "Christian N", "Curtis Frye", "Damien Neil", "Daniel Sharpe", "David Cornelson", "DJ Lang", "Doug Orleans", "Emily Short", "Eric Nyman", "J. Ryan Stinnett", "James Tranovich", "Jason Compton", "Jo Walton", "John Faulkenbury", "John Krewson", "Joshua Grams", "JT", "Jules Graybill", "Liza Daly", "Mark Sample", "Marty McGuire", "Matthew Griffin", "Michael Rubin", "Mike Wiese", "Monica M", "ndiddy", "Olivier L.", "pdxeric", "Tobias V. Langhoff", "Torbj\u00f6rn Andersson", "Zeke Pabski"],
+    "Supporter": ["Cat", "Christopher", "crashp1t", "Daniel Smith", "Derrell Piper", "JP Sugarbroad", "Lachlan Cooper", "louis rodriguez", "Mick Stone", "Nevin", "Pinkunz", "Vivienne Dunstan"],
+}
