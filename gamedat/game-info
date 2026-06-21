@@ -152,7 +152,7 @@ Object 118 OFFICE-DESK
 Object 119 CLOCK
 Object 120 GARAGE-DOOR
 Object 121 OFFICE-DOOR
-# Object 122: "hallway" HALL-1 HALL-2 HALL-3 HALL-4
+Object 122 HALL-4
 Object 123 TOWELS
 Object 124 LINENS
 Object 125 STORAGE-DOOR
@@ -232,21 +232,20 @@ Object 198 MONICA-ROOM
 Object 199 ROCKS
 Object 200 BATH-WINDOW
 Object 201 LINDER-WINDOW
-# Object 202: "back door" GENERIC-BACK-DOOR OFFICE-BACK-DOOR MONICA-BACK-DOOR LINDER-BACK-DOOR
+# Object 202: "back door" GENERIC-BACK-DOOR MONICA-BACK-DOOR LINDER-BACK-DOOR
 Object 203 ROCK-GARDEN
-# Object 204: "back door" GENERIC-BACK-DOOR OFFICE-BACK-DOOR MONICA-BACK-DOOR LINDER-BACK-DOOR
+# Object 204: "back door" GENERIC-BACK-DOOR MONICA-BACK-DOOR LINDER-BACK-DOOR
 Object 205 BACK-YARD
 Object 206 PIECE-OF-PUTTY
 Object 207 OFFICE
 Object 208 PIECE-OF-WIRE
 Object 209 GENERIC-CAST
 Object 210 BACK-FOOTPRINTS-CAST
-### Check 211, 222
 Object 211 BACK-FOOTPRINTS
 Object 212 BROKEN-GLASS
 Object 213 LAWN
 Object 214 OFFICE-WINDOW
-# Object 215: "back door" GENERIC-BACK-DOOR OFFICE-BACK-DOOR MONICA-BACK-DOOR LINDER-BACK-DOOR
+Object 215 OFFICE-BACK-DOOR
 Object 216 OFFICE-PORCH
 Object 217 BACK-GATE
 Object 218 OFFICE-PATH
@@ -256,9 +255,9 @@ Object 221 LIMBO
 Object 222 SIDE-FOOTPRINTS
 Object 223 WOODS
 Object 224 DRIVEWAY-ENTRANCE
-# Object 225: "driveway" DRIVEWAY DRIVEWAY-OBJECT
+Object 225 DRIVEWAY
 Object 226 DOORBELL
-# Object 227: "driveway" DRIVEWAY DRIVEWAY-OBJECT
+Object 227 DRIVEWAY-OBJECT
 Object 228 FRONT-PORCH
 Object 229 KITCHEN-GARDEN
 Object 230 FENCE
@@ -285,15 +284,12 @@ Object 250 ROOMS
 
 # Attribute X AN
 # Attribute X CONTBIT
-# Attribute X DOORBIT
 # Attribute X DRINKBIT
 # Attribute X FEMALE
 # Attribute X FOODBIT
 # Attribute X FURNITURE
-# Attribute X INVISIBLE
 # Attribute X LIGHTBIT
 # Attribute X LOCKED
-# Attribute X NDESCBIT
 # Attribute X ON-NOT-IN
 # Attribute X ONBIT
 # Attribute X OPENBIT
@@ -303,7 +299,6 @@ Object 250 ROOMS
 # Attribute X RMUNGBIT
 # Attribute X SEARCHBIT
 # Attribute X SURFACEBIT
-# Attribute X TAKEBIT
 # Attribute X TOOLBIT
 # Attribute X TOUCHBIT
 # Attribute X TRANSBIT
@@ -311,37 +306,41 @@ Object 250 ROOMS
 # Attribute X VEHBIT
 # Attribute X WEAPONBIT
 # Attribute X WINDOWBIT
+Attribute 12 INVISIBLE
+Attribute 19 NDESCBIT
+Attribute 22 TAKEBIT
+Attribute 28 DOORBIT
 
-# Property X CAPACITY
 # Property X CHARACTER
-# Property X CONTFCN
-# Property X CORRIDOR
-# Property X DESCFCN
 # Property X DOWN
-# Property X EAST
-# Property X FDESC
-# Property X IN
-# Property X LDESC
 # Property X NE
-# Property X NORTH
 # Property X NW
 # Property X OUT
 # Property X PSEUDO
 # Property X SE
-# Property X SIZE
-# Property X SOUTH
 # Property X SW
 # Property X TEXT
 # Property X UP
 # Property X XDESC
+Property 5 CAPACITY  INT
+Property 7 SIZE  INT
+Property 8 DESCFCN  RTN
+Property 9 CONTFCN  RTN
+Property 10 FDESC  STR
+Property 11 CORRIDOR  CORBITS
 Property 12 ADJECTIVE  ADJS
 Property 13 STATION  OBJ
 Property 14 LINE  TLINE
 Property 15 GLOBAL  OBJS
+Property 16 LDESC  STR
 Property 17 GENERIC  RTN
 Property 18 ACTION  RTN
 Property 19 SYNONYM  WORDS
+Property 21 IN  DIR
 Property 28 WEST  DIR
+Property 29 EAST  DIR
+Property 30 SOUTH  DIR
+Property 31 NORTH  DIR
 
 Global 0 HERE  OBJ
 Global 1 SCORE
