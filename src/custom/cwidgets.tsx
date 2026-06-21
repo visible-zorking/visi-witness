@@ -195,7 +195,7 @@ export function ArgShowTime({ value }: { value:number })
     let minutes = value % 60;
     let hours = Math.floor(value / 60);
 
-    let ampm = (hours < 12) ? 'am' : 'pm';
+    let ampm = (hours < 12) ? 'pm' : 'am';
     if (hours == 0) {
         hours = 12;
     }
