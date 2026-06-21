@@ -312,8 +312,6 @@ Object 250 ROOMS
 # Attribute X WEAPONBIT
 # Attribute X WINDOWBIT
 
-# Property X ACTION
-# Property X ADJECTIVE
 # Property X CAPACITY
 # Property X CHARACTER
 # Property X CONTFCN
@@ -322,11 +320,8 @@ Object 250 ROOMS
 # Property X DOWN
 # Property X EAST
 # Property X FDESC
-# Property X GENERIC
-# Property X GLOBAL
 # Property X IN
 # Property X LDESC
-# Property X LINE
 # Property X NE
 # Property X NORTH
 # Property X NW
@@ -335,13 +330,18 @@ Object 250 ROOMS
 # Property X SE
 # Property X SIZE
 # Property X SOUTH
-# Property X STATION
 # Property X SW
-# Property X SYNONYM
 # Property X TEXT
 # Property X UP
-# Property X WEST
 # Property X XDESC
+Property 12 ADJECTIVE  ADJS
+Property 13 STATION  OBJ
+Property 14 LINE  TLINE
+Property 15 GLOBAL  OBJS
+Property 17 GENERIC  RTN
+Property 18 ACTION  RTN
+Property 19 SYNONYM  WORDS
+Property 28 WEST  DIR
 
 Global 0 HERE  OBJ
 Global 1 SCORE
