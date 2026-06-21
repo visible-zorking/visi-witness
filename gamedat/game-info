@@ -280,13 +280,10 @@ Object 248 GLOBAL-OBJECTS
 Object 249 GLOBAL-ROOM
 Object 250 ROOMS
 
-# Attribute X LIGHTBIT
-# Attribute X READBIT
-# Attribute X RMUNGBIT
-# Attribute X SEARCHBIT
-# Attribute X TOUCHBIT
+Attribute 4 TOUCHBIT
 Attribute 5 FEMALE
 Attribute 6 TRANSBIT
+Attribute 7 SEARCHBIT
 Attribute 8 OPENBIT
 Attribute 9 CONTBIT
 Attribute 10 TRYTAKEBIT
@@ -300,8 +297,11 @@ Attribute 17 LOCKED
 Attribute 18 WINDOWBIT
 Attribute 19 NDESCBIT
 Attribute 20 FURNITURE
+Attribute 21 READBIT
 Attribute 22 TAKEBIT
 Attribute 23 TOOLBIT
+Attribute 24 RMUNGBIT
+Attribute 25 LIGHTBIT
 Attribute 26 FOODBIT
 Attribute 27 DRINKBIT
 Attribute 28 DOORBIT
