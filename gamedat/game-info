@@ -358,7 +358,7 @@ Global 14 MONICA-DASHED-OUT-DOOR
 Global 15 MONICA-PUSHED-BUTTON
 Global 16 CLOCK-FIXED
 Global 17 MONICA-SEEN-CORPSE?
-Global 18 MURDER-TIME
+Global 18 MURDER-TIME  HMTIMEZ
 Global 19 PHONG-OLD-LOC
 Global 20 PHONG-CALLED
 Global 21 PHONG-SEEN-CORPSE?
@@ -389,7 +389,7 @@ Global 44 GROUND-MUDDY
 ### Global 46 ### CLOUDS-GONE, MOONRISE, SUNRISE, I-WEATHER-NUM
 ### Global 47 ### CLOUDS-GONE, MOONRISE, SUNRISE, I-WEATHER-NUM
 ### Global 48 ### CLOUDS-GONE, MOONRISE, SUNRISE, I-WEATHER-NUM
-Global 49 PRESENT-TIME
+Global 49 PRESENT-TIME  HMTIME
 Global 50 SKY-DESC  STR
 Global 51 WHO-WAIT
 Global 52 LIT
@@ -433,7 +433,7 @@ Global 89 P-SLOCBITS
 Global 90 UNKNOWN-MSGS
 Global 91 P-NUMBER
 Global 92 X-IS-LISTENING
-Global 93 P-PROMPT
+Global 93 P-PROMPT  STR
 Global 94 P-ADVERB
 Global 95 QUOTE-FLAG
 Global 96 P-NCN
@@ -517,9 +517,13 @@ Global 173 VERBS
 
 # Argument type info for routines that are hard to guess.
 
+RoutineType - DDESC STR OBJ STR
+RoutineType - IN-MOTION? OBJ
 RoutineType - PERFORM ACTION PERFORMO PERFORMI
+RoutineType - PHONG-F MFLAG
 RoutineType - THE? OBJ
 RoutineType - THIS-IS-S-HE OBJ
+RoutineType - WHERE-UPDATE OBJ
 
 
 # Map connections that don't come directly from room properties.
