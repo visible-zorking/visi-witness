@@ -9,8 +9,17 @@
 
 ABOUT: Welcome to the commentary track!
 
+### obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [obj:DETECTIVE] is defined as being inside it. Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
 
+### DIRECTIONS: no diagonals
 ### src:PLACES-392: bracket
 ### src:PLACES-947: unbalanced
 ### two inlined routines
-### PRE-DROP not really commented out? but also not in grammar table. Same with PRE-THROUGH.
+### PRE-DROP not really commented out? but also not in grammar table. Same with PRE-THROUGH. (Reverted)
+### V-HELP mention "Gazette" as well as reversion. (changed in r22)
+### Hui Phong?
+### INSIDE-GUN has a bad adj 133 for HAND? HANDCUFFS too.
+
+### for blog post:
+### Phong
+### the reversion
