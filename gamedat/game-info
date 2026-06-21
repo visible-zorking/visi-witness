@@ -461,7 +461,7 @@ Global 116 P-SYNTAX
 Global 118 P-TABLE
 ### Global 119 ###
 ### Global 120 ###
-### Global 121 ###
+Global 121 PRSA  ACTION
 ### Global 122 ###
 Global 123 NOW-PRSI
 Global 124 P-WON
@@ -517,6 +517,7 @@ Global 173 VERBS
 
 # Argument type info for routines that are hard to guess.
 
+RoutineType - PERFORM ACTION PERFORMO PERFORMI
 RoutineType - THE? OBJ
 RoutineType - THIS-IS-S-HE OBJ
 
