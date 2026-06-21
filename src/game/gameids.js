@@ -30,6 +30,11 @@ function gamedat_ids_specific(gamedat_ids)
     gamedat_ids.GLOBAL_OBJECTS = gamedat_object_names.get('GLOBAL-OBJECTS').onum;
     gamedat_ids.LOCAL_GLOBALS = gamedat_object_names.get('LOCAL-GLOBALS').onum;
     gamedat_ids.PLAYER = gamedat_object_names.get('PLAYER').onum;
+    gamedat_ids.LINDER = gamedat_object_names.get('LINDER').onum;
+    gamedat_ids.MONICA = gamedat_object_names.get('MONICA').onum;
+    gamedat_ids.STILES = gamedat_object_names.get('STILES').onum;
+    gamedat_ids.PHONG = gamedat_object_names.get('PHONG').onum;
+    gamedat_ids.CAT = gamedat_object_names.get('CAT').onum;
     gamedat_ids.STARTROOM = gamedat_object_names.get('DRIVEWAY-ENTRANCE').onum;
     gamedat_ids.PSEUDO_OBJECT = gamedat_object_names.get('PSEUDO-OBJECT').onum;
 
