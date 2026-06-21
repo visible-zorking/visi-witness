@@ -375,7 +375,7 @@ Global 31 PLAYER-NEAR-SHOT
 Global 32 LINDER-EXPLAINED
 Global 33 LINDER-ASKED-YOU-TO-SIT
 Global 34 LINDER-FOLLOWS-YOU
-### Global 35 ###
+Global 35 OHERE  OBJ
 Global 36 TOO-LATE-KNOCKED
 Global 37 WELCOMED
 Global 38 ANALYSIS-OBJ
@@ -408,10 +408,10 @@ Global 64 INDENTS
 Global 65 HO-HUM
 Global 66 FINGERPRINT-OBJ
 Global 67 P-SPACE
-### Global 68 ###
-### Global 69 ###
+Global 68 SUPER-BRIEF
+Global 69 VERBOSE
 Global 70 DIFFICULTY
-### Global 71 ###
+Global 71 DEBUG
 Global 72 P-MOBY-FOUND
 Global 73 P-CEPTR
 Global 74 P-CSPTR
@@ -451,7 +451,7 @@ Global 107 P-IT-LOC  OBJ
 Global 108 P-IT-OBJECT  OBJ
 Global 109 P-CONT
 Global 110 P-INBUF
-### Global 111 ###
+Global 111 P-LEXV
 Global 112 WINNER  OBJ
 Global 113 P-DIR
 Global 114 P-LEN
@@ -459,8 +459,8 @@ Global 115 P-CCSRC
 Global 116 P-SYNTAX
 Global 117 P-ONEOBJ
 Global 118 P-TABLE
-### Global 119 ###
-### Global 120 ###
+Global 119 PRSO
+Global 120 PRSI
 Global 121 PRSA  ACTION
 ### Global 122 ###
 Global 123 NOW-PRSI
@@ -511,8 +511,8 @@ Global 167 SIDE-FOOTPRINTS-CONFUSED
 Global 168 DIR-STRINGS
 Global 169 LOW-DIRECTION  PROP
 Global 170 PREPOSITIONS
-### Global 171 ### ACTIONS, PREACTIONS, GLOBAL-CHARACTER-TABLE
-### Global 172 ### ACTIONS, PREACTIONS, GLOBAL-CHARACTER-TABLE
+Global 171 ACTIONS
+Global 172 PREACTIONS
 Global 173 VERBS
 
 # Argument type info for routines that are hard to guess.
