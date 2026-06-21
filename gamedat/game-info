@@ -462,7 +462,7 @@ Global 118 P-TABLE
 Global 119 PRSO
 Global 120 PRSI
 Global 121 PRSA  ACTION
-### Global 122 ###
+# Global 122 is not defined or used
 Global 123 NOW-PRSI
 Global 124 P-WON
 Global 125 CLOCK-WAIT
