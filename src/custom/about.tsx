@@ -127,14 +127,14 @@ export function AboutPage()
                 <p>
                     Click on any function, object, or variable to see its
                     definition in the source code. Click on an object&#x2019;s
-                    {' '}<ObjPageLink onum={ 160 } /> button
+                    {' '}<ObjPageLink onum={ 79 } /> button
                     to see its current state and place in the world.
                     (This will initially match the source code, but
                     may change as you interact with the game.)
                 </p>
                 <p>
                     <Commentary topic={ 'ABOUT' } />
-                    Click on the green buttons to see commentary about
+                    Click on the green buttons to see commentary about{' '}
                     <i>The Witness</i>&#x2019;s implementation. Notes, trivia, whatever came
                     into my head as I was building the Visible Zorker!
                 </p>
@@ -143,10 +143,10 @@ export function AboutPage()
                     The <a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'feelies') }>Feelies</a>{' '}
                     tab is particularly important. <i>The Witness</i> originally came
                     with a &#x201C;Documentary Evidence&#x201D; file.
-                    (An actual file dossier with memos and photos and an
-                    evidence bag of pills!)
+                    (An actual file dossier with documents and a
+                    period newspaper!)
                     This provided your introduction to the mystery,
-                    the background of many of the characters, and evidence
+                    the background of some of the characters, and evidence
                     you need to begin your investigation. The Feelies tab
                     contains links to these documents.
                 </p>
@@ -161,26 +161,31 @@ export function AboutPage()
                 </p>
                 <h2>Which version is this?</h2>
                 <p>
-                    <i>The Witness</i> was the first non-Zork game created by Infocom.
+                    <i>The Witness</i> was originally released in 1983.
+                    The version you see here dates from 1984. (The serial number
+                    &#x201C;840925&#x201D; shows the compile date.)
                     As with Zork, it was built using a proprietary system
                     called{' '}
                     <ExtWebLink url={ 'https://blog.zarfhome.com/2019/04/what-is-zil-anyway' } text={ 'ZIL' } />.
                     (For &#x201C;Zork Implementation Language&#x201D;.)
                 </p>
                 <p>
-                    The game was originally released in 1982.
-                    The version you see here dates from 1983. (The serial number
-                    &#x201C;831005&#x201D; shows the compile date.)
-                </p>
-                <p>
-                    This 1983 release is
-                    the one most commonly seen today,
-                    because it was included in the &#x201C;
+                    The release most commonly seen today is release
+                    (&#x201C;Revision number&#x201D;) 22.
+                    That&#x2019;s the version included in the &#x201C;
                     <ExtWebLink url={ 'https://archive.org/details/lost-treasures-of-infocom' } text={ 'Lost Treasures of Infocom' } />
                     &#x201D; collection and later collections.
-                    I have therefore selected it for this exhibit.
-                    Archived evidence indicates that Infocom continued
-                    updating the source until at least 1985.
+                    However, the r22 source code has not been preserved.
+                    The only source code that survives is for
+                    release 23 &#x2014; a development version that never
+                    went through Infocom QA. In fact, the source code has
+                    a few changes <em>after</em> the compiled r23 game file.
+                </p>
+                <p>
+                    I don&#x2019;t like to use development versions for
+                    the Visible Zorker, but in this case I had no choice.
+                    I have done my best to revert the r23 source changes to
+                    match the r23 game file.
                 </p>
                 <h2>Sources and acknowledgements</h2>
                 <p>
@@ -218,7 +223,8 @@ export function AboutPage()
                     Feelie scans courtesy of the{' '}
                     <ExtWebLink url={ 'https://infodoc.plover.net/manuals/' } text={ 'InfoDoc Project' } />
                     {' '}and my own collection.
-                    See also the Internet Archive (###).
+                    See also the{' '}
+                    <ExtWebLink url={ 'https://archive.org/details/Infocom_Witness_Apple' } text={ 'Internet Archive' } />.
                 </p>
                 <p>
                     <i>The Witness</i> itself was originally written by Stu Galley.
