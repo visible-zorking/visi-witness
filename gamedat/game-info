@@ -379,7 +379,7 @@ Global 35 OHERE  OBJ
 Global 36 TOO-LATE-KNOCKED
 Global 37 WELCOMED
 Global 38 ANALYSIS-OBJ
-Global 39 ANALYSIS-GOAL
+Global 39 ANALYSIS-GOAL  OBJ
 Global 40 SEEN-DUFFY?
 Global 41 MET-DUFFY?
 Global 42 MET-STILES?
@@ -400,8 +400,8 @@ Global 56 PRON-HIM  STR
 Global 57 OFFENDED  DATA
 Global 58 YUKS  DATA
 Global 59 WHO-CARES  DATA
-Global 60 QCONTEXT-ROOM
-Global 61 QCONTEXT
+Global 60 QCONTEXT-ROOM  OBJ
+Global 61 QCONTEXT  OBJ
 Global 62 FUMBLE-PROB
 Global 63 FUMBLE-NUMBER
 Global 64 INDENTS  DATA
@@ -517,13 +517,40 @@ Global 173 VERBS  table created from SYNTAX
 
 # Argument type info for routines that are hard to guess.
 
+RoutineType - CLAUSE - - WORD
+RoutineType - COM-CHECK OBJ
+RoutineType - COR-DIR OBJ OBJ
+RoutineType - CORRIDOR-CHECK TABLE OBJ
+RoutineType - CORRIDOR-LOOK OBJ
 RoutineType - DDESC STR OBJ STR
+RoutineType - DESCRIBE-PERSON OBJ
+RoutineType - DIR-FROM OBJ OBJ
+RoutineType - DIR-PRINT PROP
+RoutineType - DISCRETION OBJ OBJ
+RoutineType - ESTABLISH-GOAL OBJ OBJ
+RoutineType - FOLLOW-GOAL OBJ
+RoutineType - FOLLOWED? OBJ
+RoutineType - GOAL-REACHED OBJ
+RoutineType - GRAB-ATTENTION OBJ
+RoutineType - GWIM - - PREP
+RoutineType - IMOVEMENT OBJ RTN
 RoutineType - IN-MOTION? OBJ
+RoutineType - MOVE-PERSON OBJ OBJ
+RoutineType - ORPHAN GLINE GLINE
 RoutineType - PERFORM ACTION PERFORMO PERFORMI
 RoutineType - PHONG-F MFLAG
+RoutineType - PICK-ONE TABLE
+RoutineType - QCONTEXT-CHECK OBJ
+RoutineType - SAID-TO OBJ
+RoutineType - SYNTAX-FOUND GLINE
 RoutineType - THE? OBJ
 RoutineType - THIS-IS-S-HE OBJ
+RoutineType - TIME-PRINT HMTIME
+RoutineType - TRANSFER OBJ OBJ OBJ
+RoutineType - UNPRIORITIZE OBJ
 RoutineType - WHERE-UPDATE OBJ
+RoutineType - V-CLIMB-UP PROP
+RoutineType - WT? WORD - -
 
 
 # Map connections that don't come directly from room properties.
