@@ -64,6 +64,7 @@ export function FeeliesPage()
                 <hr />
                 <FeelieLink url={ 'telegram.jpg' } width={ 250 } height={ 181 } text={ 'Telegram from Freeman Linder' } />
                 <FeelieLink url={ 'letter.jpg' } width={ 200 } height={ 306 } text={ 'Letter from Virginia Linder to Monica' } />
+                <FeelieLink url={ 'matchbook.jpg' } width={ 120 } height={ 134 } text={ 'Matchbook found on curb' } />
                 <hr />
             </div>
         </div>
