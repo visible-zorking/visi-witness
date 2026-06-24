@@ -191,7 +191,7 @@ export function SchedulePage()
             <p>
                 To clarify this (maybe), I&#x2019;ve highlighted each character&#x2019;s
                 next destination and the time at which they will depart
-                for it.
+                for it. ###
             </p>
             <p>
                 Times are slightly variable. When a line is highlighted,
