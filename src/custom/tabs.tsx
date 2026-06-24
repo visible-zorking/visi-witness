@@ -14,6 +14,7 @@ import { ObjectPage } from '../visi/objpage';
 import { GlobalState } from '../visi/globstate';
 import { SourceFileList } from '../visi/filelist';
 import { AboutPage } from './about';
+import { SchedulePage } from './schedule';
 
 const tab_list = [
     [ 'activity', 'Activity' ],
@@ -21,6 +22,7 @@ const tab_list = [
     //[ 'map', 'Map' ],
     [ 'globals', 'State' ],
     [ 'timers', 'Timers' ],
+    [ 'schedule', 'Schedule' ],
     [ 'grammar', 'Grammar' ],
     [ 'filelist', 'Files' ],
     //[ 'feelies', 'Feelies' ]
@@ -90,6 +92,9 @@ export function TabbedPane()
         break;
     case 'about':
         tabcontent = <AboutPage />;
+        break;
+    case 'schedule':
+        tabcontent = <SchedulePage />;
         break;
     default:
         tabcontent = <>{ rctx.tab } not implemented</>;
