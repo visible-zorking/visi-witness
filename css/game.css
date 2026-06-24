@@ -1,0 +1,82 @@
+
+.GoalTable {
+    border: 1px solid #CCC;
+    padding: 4px;
+}
+
+.GoalTable th {
+    font-weight: normal;
+    font-size: 85%;
+}
+
+.GoalTable td {
+    font-family: "Courier Prime";
+    font-size: 85%;
+    padding: 0px 4px;
+}
+
+.GoalTable tr.RowLabel td {
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.GoalTable tr.CurrentRow {
+    background: #FFDD88;
+}
+.DarkTheme .GoalTable tr.CurrentRow {
+    background: #705000;
+}
+
+.FeeliesPage h2 {
+    font-size: 110%;
+    font-family: "Libre Baskerville", serif;
+}
+
+.FeeliesPage hr {
+    border: none;
+    height: 2px;
+    background-color: #888;
+    margin: 40px 20px;
+}
+
+.FeeliesPage a {
+    color: #00C;
+}
+.DarkTheme .FeeliesPage a {
+    color: #88F;
+}
+
+.FeeliesPage .Feelie {
+    text-align: center;
+}
+
+.SolutionPage {
+    padding-bottom: 1rem;
+}
+
+.SolutionPage .Arrest {
+    margin-top: 2rem;
+    font-size: 100%;
+    font-family: "Courier Prime";
+}
+
+.SolutionPage .Cond {
+    margin-top: 0.5rem;
+}
+
+.SolutionPage .CondGroup {
+    margin-left: 2rem;
+}
+
+.SolutionPage .Outcome {
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.SolutionPage .Current {
+    background: #FFDD88;
+}
+.DarkTheme .SolutionPage .Current {
+    background: #705000;
+}
+
