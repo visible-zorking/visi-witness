@@ -99,6 +99,50 @@ SHOW-SOLUTION-TAB: A “Solution” tab has been added to the right pane.
 glob:ANALYSIS-OBJ: Whether Duffy’s current task is `FINGERPRINT` or `ANALYZE`.
 
 
+glob:MOVEMENT-GOALS: The day’s schedule for each character.
+	Monica and Phong each have a list of movement times and goals. A line `70 10 KITCHEN` means that they will wait 70±10 minutes (60 to 80) and then begin moving towards the `KITCHEN`.
+	(Stiles has some movement entries but they are all commented out.)
+
+glob:GOAL-TABLES: The current movement goal of each character. The scheme is explained in the “Schedule” tab.
+
+rtn:IN-MOTION?: Whether a character is moving towards a destination, as determined by [glob:GOAL-TABLES].
+
+rtn:IMOVEMENT: Prepare a character to move towards their next destination. The character’s timer routine calls this when it is time for them to “wake up” and move.
+	This calls [rtn:ESTABLISH-GOAL] to set up their movement. Then they advance one line on their [~glob:MOVEMENT-GOALS] table and set a long timer (30 or 60 minutes or whatever) – the delay until their *next* wake-up call.
+
+# More precisely:
+# - if not first move (initial 0 entry), establish-goal
+# - if not last entry (final 0 time), pick the interval, queue timer, advance ptr
+
+rtn:I-FOLLOW: Move each character towards their current goal, if they ought to be in motion.
+
+rtn:FOLLOW-GOAL: Move a character one step towards their current goal. All the work driven by the [~glob:GOAL-TABLES] happens in this routine.
+
+rtn:ESTABLISH-GOAL: Set up a character’s [~glob:GOAL-TABLES] entry to move them towards a destination. Normally this is driven by the [~glob:MOVEMENT-GOALS] table. If the `PRIORITY` argument is set, this is a plot-critical action which overrides the normal schedule.
+	See the “Schedule” tab for a complete explanation.
+
+rtn:INT-WAIT: Run the game time forward by `N` minutes. Returns true if the full time elapsed, or false if the player chose to stop waiting (because of some observed action).
+	This is used by a couple of actions that take more than one minute: `EXAMINE CAREFULLY`, `EXAMINE ROOM`. If you don’t wait the full interval, the `EXAMINE` action fails.
+
+prop:LINE: The transit line which a given room is on or adjacent to. See [~prop:STATION].
+
+prop:STATION: The transit-line room which is, or is adjacent to, a given room. See [~prop:LINE].
+
+glob:OUTSIDE-LINE: These tables define the four “transit lines” which let NPCs travel around the map. Every room is either on or adjacent to a transit line.
+
+rtn:I-ATTENTION: This timer routine decreases each character’s attention level after you call their name or do something else which calls [~rtn:GRAB-ATTENTION]. These values are stored in [glob:ATTENTION-TABLE]. After two to nine minutes, they will become impatient and leave.
+
+glob:ATTENTION-TABLE: The current attention level of each character. This is set positive if you call their name or do something else which calls [~rtn:GRAB-ATTENTION]. It then decreases every turn ([rtn:I-ATTENTION]) to zero, at which point they wander off.
+	(In fact the values in this table decrease *every* turn, becoming negative. Negative values are ignored. For simplicity, I display negative values as “0” in the Schedule tab.)
+
+glob:COR-1: The six `COR-N` tables define six corridors of rooms that have sight-lines to each other. (Some of the “corridors” are outdoors.) Each room in a corridor has that bit set in its [prop:CORRIDOR] property.
+	This permits the game to display messages like “Mr. Phong, off to the north, ducks into a room to the north.”
+
+prop:CORRIDOR: This property defines one or more “corridors” (sight-lines) that the player can see down from a given room. See [glob:COR-1].
+
+glob:WHERE-TABLES: This tracks when each character last saw each other character. This lets you ask questions like `LINDER, WHERE IS PHONG?` (You won’t get the location, but you will get a time.)
+
+
 src:PLACES-781: You originally had to examine the window `CAREFULLY` to discover the green wire, but this requirement has been commented out.
 
 ### obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [obj:DETECTIVE] is defined as being inside it. Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
