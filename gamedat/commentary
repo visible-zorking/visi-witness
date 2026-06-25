@@ -13,6 +13,8 @@ rtn:V-VERSION: Print the title, release, and serial number.
 	In 1982, Infocom briefly branded its games as “INTERLOGIC”. They had mostly switched to “interactive fiction” by 1984. In fact, in this game’s archived source code, they were in the process of deleting the “INTERLOGIC” trademark.
 	(For consistency, I have reverted that change in the source code display. See [comment|~src:VERBS-213].)
 
+src:WITNESS-4: Yes, I added that comment. As it says, I had to revert a few source code changes to get it to match the r23 game file. See [rtn:V-VERSION], for example.
+
 
 GRAMMAR-LEGEND: This is the list of verb forms which the game recognizes. (Simple directions like `NORTH` are a special case; they’re not listed here.) These are compiled from the [SYNTAX|~src:SYNTAX-36] file.
 	Objects in a verb line have various flags which give hints about their usage. An object attribute (like `LIGHTBIT`) means that if the player doesn’t name an object, the parser will try to guess one with that attribute.
