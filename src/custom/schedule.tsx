@@ -215,7 +215,20 @@ export function SchedulePage()
                 action in the game. Many are triggered by your
                 actions, such as Linder following you around
                 after you arrive.
-                Others are on their own timers, such as ###.
+                Others are on their own timers, such as{' '}
+                <a href="#" className="Src_Id" onClick={ (ev) => evhan_click_id(ev, 'RTN:I-LINDER-TO-OFFICE') }><code>I-LINDER-TO-OFFICE</code></a>,
+                or managed through the (overstuffed){' '}
+                <a href="#" className="Src_Id" onClick={ (ev) => evhan_click_id(ev, 'RTN:I-PHONG') }><code>I-PHONG</code></a>
+                {' '}and{' '}
+                <a href="#" className="Src_Id" onClick={ (ev) => evhan_click_id(ev, 'RTN:I-MONICA') }><code>I-MONICA</code></a>
+                {' '}routines.
+            </p>
+            <p>
+                (Comments in the{' '}
+                <a href="#" className="Src_Id" onClick={ (ev) => evhan_click_id(ev, 'GLOB:MOVEMENT-GOALS') }><code>MOVEMENT-GOALS</code></a>
+                {' '}source code indicate several of these events were
+                originally handled via the schedule, and later changed to
+                custom code.)
             </p>
         </div>
     );
