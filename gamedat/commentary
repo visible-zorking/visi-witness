@@ -77,6 +77,16 @@ TIMERS-LEGEND: A list of the timers running (or paused) in the timer table ([~gl
 	Note that enabled negative timers, like [~rtn:I-ATTENTION], count down towards “negative infinity”. They’ll wrap and stop working after 65535 turns, but back then nobody worried about this!
 
 
+obj:OBJECT-PAIR: Multiple actions like `GET ALL` are usually handled one object at a time. However, *The Witness* allows you to `ARREST` two people as one action. (Yeah, that counts as a spoiler, sorry.)
+	The [~rtn:MAIN-LOOP-1] has a special case for this [here|~src:MAIN-89]. The `ARREST` and `COMPARE` actions are performed with the special object `OBJECT-PAIR`, whose action function [rtn:OBJECT-PAIR-F] then handles the dual verb.
+
+rtn:OBJECT-PAIR-F: The code which handles an action on two objects at once. (See [obj:OBJECT-PAIR].) In *The Witness*, this is only the `ARREST` action (see [rtn:ARREST]) and the `COMPARE` action.
+
+rtn:ARREST:
+	The code which handles arresting someone (or sometwo).
+	For a complete breakdown of the endgame logic, see [SOLUTION].
+
+
 src:PLACES-781: You originally had to examine the window `CAREFULLY` to discover the green wire, but this requirement has been commented out.
 
 ### obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [obj:DETECTIVE] is defined as being inside it. Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
