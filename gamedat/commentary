@@ -150,6 +150,10 @@ obj:PHONG: Phong’s full name is Hui Phong, or possibly Phong Hui. This is neve
 obj:STILES: Stiles’s first name is Ralph. This is not mentioned in the game except in the post-arrest report, e.g. [here|~src:EVENTS-1707].
 
 
+src:MAIN-45: At some point the ZIL compiler gained the ability to inline routines. The `MAIN-LOOP` routine does not appear in the game file; I have greyed it out to indicate this. The code inside the routine *does* exist, however. It is placed inside [rtn:GO] above.
+
+src:THINGS-426: At some point the ZIL compiler gained the ability to inline routines. The `SEEKING-DRINK? ` routine does not appear in the game file; I have greyed it out to indicate this. The code inside the routine *does* exist, however. It is placed inside [~rtn:LIQUOR-F] below.
+
 src:PLACES-781: You originally had to examine the window `CAREFULLY` to discover the green wire, but this requirement has been commented out.
 
 obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [~obj:PLAYER] is defined as being inside it. (Although you are moved to [~obj:DRIVEWAY-ENTRANCE] before the first move.)
@@ -172,7 +176,6 @@ src:PLACES-392: Big chunks of this file are enclosed with square brackets. (Here
 
 
 ### difficulty
-### two inlined routines
 ### V-HELP mention "Gazette" as well as reversion. (changed in r22)
 ### INSIDE-GUN has a bad adj 133 for HAND? HANDCUFFS too.
 
