@@ -86,6 +86,18 @@ rtn:ARREST:
 	The code which handles arresting someone (or sometwo).
 	For a complete breakdown of the endgame logic, see [SOLUTION].
 
+ABOUT-SOLUTION: Okay, secretly there is. But I’ve put it behind a spoiler block.
+	Are you sure you want to see a complete breakdown of the endgame logic?
+	[Yes, I’m sure|SHOW-SOLUTION-TAB].
+
+SOLUTION: Are you sure you want to see a complete breakdown of the endgame logic?
+	[Yes, I’m sure|SHOW-SOLUTION-TAB].
+
+SHOW-SOLUTION-TAB: A “Solution” tab has been added to the right pane.
+
+
+glob:ANALYSIS-OBJ: Whether Duffy’s current task is `FINGERPRINT` or `ANALYZE`.
+
 
 src:PLACES-781: You originally had to examine the window `CAREFULLY` to discover the green wire, but this requirement has been commented out.
 
