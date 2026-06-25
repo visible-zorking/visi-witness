@@ -147,12 +147,23 @@ glob:WHERE-TABLES: This tracks when each character last saw each other character
 
 src:PLACES-781: You originally had to examine the window `CAREFULLY` to discover the green wire, but this requirement has been commented out.
 
-### obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [obj:DETECTIVE] is defined as being inside it. Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
+obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [~obj:PLAYER] is defined as being inside it. (Although you are moved to [~obj:DRIVEWAY-ENTRANCE] before the first move.)
+	Because of that declaration, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
 
-### DIRECTIONS: no diagonals
+src:WITNESS-49: The game defines diagonal directions, but they have no [SYNONYM|src:SYNTAX-22] lines and thus are not recognized by the parser.
+
+src:SYNTAX-22: The `SYNONYM` lines for the diagonal directions are commented out. So the parser does not recognize them, even though they’re defined in the [DIRECTIONS|src:WITNESS-49] line.
+
+src:PLACES-947: The `)>` characters on this line are unbalanced; they do not match any earlier syntax. 
+	Any modern language would scream bloody murder about this kind of mistake, but apparently Infocom’s ZIL compiler silently ignored it. So did the MDL compiler that it was based on. See [discussion|https://intfiction.org/t/question-about-infocom-zil-syntax/80690/9].
+	(The `[` character is *not* a mistake; it’s paired with a `]` character [here|~src:PLACES-1083]. See the [note about brackets|src:PLACES-392].)
+
+src:PLACES-392: Big chunks of this file are enclosed with square brackets. (Here to [here|~src:PLACES-439], for example.) Why?
+	The brackets don’t seem to affect compilation at all. Our best guess is that they were a text editor convenience, allowing the developer to jump across groups of related rooms to the matching bracket.
+	It’s also possible that the developer wanted to comment out groups of rooms. In ZIL, a semicolon in front of a pair of delimiters would have commented out everything between them.
+
+
 ### difficulty
-### src:PLACES-392: bracket
-### src:PLACES-947: unbalanced
 ### two inlined routines
 ### PRE-DROP not really commented out? but also not in grammar table. Same with PRE-THROUGH. (Reverted)
 ### V-HELP mention "Gazette" as well as reversion. (changed in r22)
