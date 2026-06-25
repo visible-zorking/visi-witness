@@ -78,6 +78,11 @@ export function AboutPage()
                     live, as you play.
                 </p>
                 <p>
+                    No, there&#x2019;s no connection to the 2016 graphical
+                    puzzle adventure game called <i>The Witness</i>. This
+                    is the much older text game, originally released in 1983.
+                </p>
+                <p>
                     (In case it&#x2019;s not obvious: <em>SPOILERS</em> for <i>The Witness</i>.
                     The source code gives away every secret and solution in the game.
                     The whole point of this project is to demonstrate how
