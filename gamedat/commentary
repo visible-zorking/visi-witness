@@ -145,7 +145,13 @@ prop:CORRIDOR: This property defines one or more “corridors” (sight-lines) t
 glob:WHERE-TABLES: This tracks when each character last saw each other character. This lets you ask questions like `LINDER, WHERE IS PHONG?` (You won’t get the location, but you will get a time.)
 
 
-obj:PHONG: Phong’s full name is Hui Phong, or possibly Phong Hui. This is never mentioned in the game at all.
+glob:DIFFICULTY: Apparently early versions of the game had `EASIER` and `HARDER` commands, which allowed the player to make some clues more or less obvious. The idea was dropped during development. (See [this letter|https://github.com/historicalsource/witness/blob/master/letter.mss] archived with the source code.)
+	All that remains of this feature is some commented-out code for the `V-EASIER` and `V-HARDER` commands, the placement of the [broken glass|~src:PLACES-768], and a [bullet hole|src:PLACES-2310].
+
+src:PLACES-2310: Early versions of the game had an `EASIER` mode, in which you could find the bullet-hole and figure out the angle of the shot. The idea was dropped during development. See [glob:DIFFICULTY].
+
+
+obj:PHONG: Phong’s full name is Hui Phong, or possibly Phong Hui. This is never mentioned in the game at all. (It appears in the original [design document|https://github.com/historicalsource/witness/blob/master/witnes.rno].)
 
 obj:STILES: Stiles’s first name is Ralph. This is not mentioned in the game except in the post-arrest report, e.g. [here|~src:EVENTS-1707].
 
@@ -175,10 +181,10 @@ src:PLACES-392: Big chunks of this file are enclosed with square brackets. (Here
 	It’s also possible that the developer wanted to comment out groups of rooms. In ZIL, a semicolon in front of a pair of delimiters would have commented out everything between them.
 
 
-### difficulty
 ### V-HELP mention "Gazette" as well as reversion. (changed in r22)
 ### INSIDE-GUN has a bad adj 133 for HAND? HANDCUFFS too.
 
 ### for blog post:
 ### Phong Hui
 ### the reversion
+### difficulty
