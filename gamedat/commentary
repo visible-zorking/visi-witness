@@ -145,6 +145,11 @@ prop:CORRIDOR: This property defines one or more “corridors” (sight-lines) t
 glob:WHERE-TABLES: This tracks when each character last saw each other character. This lets you ask questions like `LINDER, WHERE IS PHONG?` (You won’t get the location, but you will get a time.)
 
 
+obj:PHONG: Phong’s full name is Hui Phong, or possibly Phong Hui. This is never mentioned in the game at all.
+
+obj:STILES: Stiles’s first name is Ralph. This is not mentioned in the game except in the post-arrest report, e.g. [here|~src:EVENTS-1707].
+
+
 src:PLACES-781: You originally had to examine the window `CAREFULLY` to discover the green wire, but this requirement has been commented out.
 
 obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [~obj:PLAYER] is defined as being inside it. (Although you are moved to [~obj:DRIVEWAY-ENTRANCE] before the first move.)
@@ -169,9 +174,8 @@ src:PLACES-392: Big chunks of this file are enclosed with square brackets. (Here
 ### difficulty
 ### two inlined routines
 ### V-HELP mention "Gazette" as well as reversion. (changed in r22)
-### Hui Phong?
 ### INSIDE-GUN has a bad adj 133 for HAND? HANDCUFFS too.
 
 ### for blog post:
-### Phong
+### Phong Hui
 ### the reversion
