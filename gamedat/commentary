@@ -159,6 +159,9 @@ obj:PHONG: Phong’s full name is Hui Phong, or possibly Phong Hui. This is neve
 obj:STILES: Stiles’s first name is Ralph. This is not mentioned in the game except in the post-arrest report, e.g. [here|~src:EVENTS-1707].
 
 
+rtn:V-PHONE: The telephone cheats a bit. The city codes `CHANDLER` and `ADELINE` (or `CH` and `AD`) are in the [BUZZ|~src:SYNTAX-6] list, like `A`, `AN`, and `THE`. `BUZZ` words are completely ignored by the parser. If you type `CALL CHANDLER 1729`, only the numeric part matters.
+
+
 src:MAIN-45: At some point the ZIL compiler gained the ability to inline routines. The `MAIN-LOOP` routine does not appear in the game file; I have greyed it out to indicate this. The code inside the routine *does* exist, however. It is placed inside [rtn:GO] above.
 
 src:THINGS-426: At some point the ZIL compiler gained the ability to inline routines. The `SEEKING-DRINK? ` routine does not appear in the game file; I have greyed it out to indicate this. The code inside the routine *does* exist, however. It is placed inside [~rtn:LIQUOR-F] below.
