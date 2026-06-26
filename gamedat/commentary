@@ -191,6 +191,9 @@ src:THINGS-543: The adjective list includes `HAND`, but the dictionary word `HAN
 
 src:THINGS-553: The adjective list includes `HAND`, but the dictionary word `HAND` is labelled only as a verb, not an adjective. This inconsistency prevents the adjective from working.
 
+src:PEOPLE-437: These lines are not compiled in the game file. Either they were added after the latest (r23) compile, or the compiler had a bug.
+	The following line (“I’m sorry, Detective, but I can’t help you”) exists in the game file but is unreachable. (Unhandled queries produce a generic “doesn’t seem to know about that” [response|~src:VERBS-744].) I say compiler bug.
+
 
 ### for blog post:
 ### Phong Hui
