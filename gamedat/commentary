@@ -158,6 +158,13 @@ obj:PHONG: Phong’s full name is Hui Phong, or possibly Phong Hui. This is neve
 
 obj:STILES: Stiles’s first name is Ralph. This is not mentioned in the game except in the post-arrest report, e.g. [here|~src:EVENTS-1707].
 
+rtn:FIX-PHONG-MOVEMENT: Phong’s movement schedule does not begin at the start of the game. It only kicks off after he leads you to the dining room (and then leaves). Because the [glob:MOVEMENT-GOALS] table stores the time of the character’s *next* movement, Phong’s entries have to be adjusted to allow for his late start.
+
+glob:TOO-LATE: If you don’t enter the house before Linder finishes his drink, his plan is ruined. He will refuse to let you in after that point.
+	On the up side, Linder doesn’t get killed. On the down side, he rubs out Stiles a few days later. See [rtn:TOO-LATE-F].
+
+rtn:TOO-LATE-F: The game ends with this addendum if you never enter the house.
+
 
 rtn:V-PHONE: The telephone cheats a bit. The city codes `CHANDLER` and `ADELINE` (or `CH` and `AD`) are in the [BUZZ|~src:SYNTAX-6] list, like `A`, `AN`, and `THE`. `BUZZ` words are completely ignored by the parser. If you type `CALL CHANDLER 1729`, only the numeric part matters.
 
