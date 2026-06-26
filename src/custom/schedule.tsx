@@ -85,6 +85,7 @@ export function SchedulePage()
     let zstate = rctx.zstate;
     
     let present = zstate.globals[49]; // PRESENT-TIME
+    let phongmoved = zstate.specifics.movegoals[1] > initialmovegoals[1].initial;
     
     return (
         <div className="ScrollContent">
@@ -195,13 +196,19 @@ export function SchedulePage()
                   next destination and the time at which she will depart
                   for it.
                   Phong has a similar schedule, but his timer does not
-                  start until he leads you to the dining room.
+                  start until after he leads you to the dining room.
               </p>
               :
               <p>
                   To clarify this (maybe), I&#x2019;ve highlighted each character&#x2019;s
                   next destination and the time at which they will depart
                   for it.
+                  { (!phongmoved) &&
+                    <span>
+                        {' '}Note that Phong&#x2019;s schedule does not
+                        begin until after he leads you to the dining room.
+                    </span>
+                  }
               </p>
             }
             <p>
@@ -447,7 +454,7 @@ function MovementTable()
     let movetimes = specifics.movetimes;
     let movegoals = specifics.movegoals;
 
-    /* We must now do some fairly dreadful, which is to yank the character
+    /* We must now do something fairly dreadful, which is to yank the character
        timers out of the timer table. This gives us the (true) time until
        that character's next move. */
     let timers:(number|null)[] = [ null, null, null, null, null, null, null, null ];
