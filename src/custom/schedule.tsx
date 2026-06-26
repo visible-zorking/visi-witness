@@ -84,7 +84,7 @@ export function SchedulePage()
     let rctx = useContext(ReactCtx);
     let zstate = rctx.zstate;
     
-    let present = zstate.globals[118]; // PRESENT-TIME
+    let present = zstate.globals[49]; // PRESENT-TIME
     
     return (
         <div className="ScrollContent">
@@ -188,11 +188,22 @@ export function SchedulePage()
                 location. So the time they spend there is actually on the
                 {' '}<em>next</em> line.
             </p>
-            <p>
-                To clarify this (maybe), I&#x2019;ve highlighted each character&#x2019;s
-                next destination and the time at which they will depart
-                for it. ###
-            </p>
+            { (present == 480) ?
+              <p>
+                  The schedule is not active on the first turn.
+                  Starting at 8:01 pm, it will highlight Monica&#x2019;s
+                  next destination and the time at which she will depart
+                  for it.
+                  Phong has a similar schedule, but his timer does not
+                  start until he leads you to the dining room.
+              </p>
+              :
+              <p>
+                  To clarify this (maybe), I&#x2019;ve highlighted each character&#x2019;s
+                  next destination and the time at which they will depart
+                  for it.
+              </p>
+            }
             <p>
                 Times are slightly variable. When a line is highlighted,
                 the game applies a random adjustment. (E.g., Phong&#x2019;s
