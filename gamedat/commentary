@@ -183,8 +183,14 @@ src:PLACES-392: Big chunks of this file are enclosed with square brackets. (Here
 	The brackets don’t seem to affect compilation at all. Our best guess is that they were a text editor convenience, allowing the developer to jump across groups of related rooms to the matching bracket.
 	It’s also possible that the developer wanted to comment out groups of rooms. In ZIL, a semicolon in front of a pair of delimiters would have commented out everything between them.
 
+src:THINGS-262: The adjective list includes `HAND`, but the dictionary word `HAND` is labelled only as a verb, not an adjective. This inconsistency prevents the adjective from working.
 
-### INSIDE-GUN has a bad adj 133 for HAND? HANDCUFFS too.
+src:THINGS-508: The adjective list includes `HAND`, but the dictionary word `HAND` is labelled only as a verb, not an adjective. This inconsistency prevents the adjective from working.
+
+src:THINGS-543: The adjective list includes `HAND`, but the dictionary word `HAND` is labelled only as a verb, not an adjective. This inconsistency prevents the adjective from working.
+
+src:THINGS-553: The adjective list includes `HAND`, but the dictionary word `HAND` is labelled only as a verb, not an adjective. This inconsistency prevents the adjective from working.
+
 
 ### for blog post:
 ### Phong Hui
