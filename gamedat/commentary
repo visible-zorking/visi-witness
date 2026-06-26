@@ -11,9 +11,12 @@ ABOUT: Welcome to the commentary track!
 
 rtn:V-VERSION: Print the title, release, and serial number.
 	In 1982, Infocom briefly branded its games as “INTERLOGIC”. They had mostly switched to “interactive fiction” by 1984. In fact, in this game’s archived source code, they were in the process of deleting the “INTERLOGIC” trademark.
-	(For consistency, I have reverted that change in the source code display. See [comment|~src:VERBS-213].)
+	(For consistency, I have reverted that change in the source code display. See [comment|~src:WITNESS-4].)
 
 src:WITNESS-4: Yes, I added that comment. As it says, I had to revert a few source code changes to get it to match the r23 game file. See [rtn:V-VERSION], for example.
+
+rtn:V-HELP: Earlier releases of the game referred to the manual as “your Nat’l Detective Gazette”. (Which is how the manual was portrayed in the folio edition.) The conceit was dropped in the grey-box edition (release 21).
+	A future release would have added a nudge about buying the InvisiClues. For consistency, I have reverted that change in the source code display. (See [comment|~src:WITNESS-4].)
 
 
 GRAMMAR-LEGEND: This is the list of verb forms which the game recognizes. (Simple directions like `NORTH` are a special case; they’re not listed here.) These are compiled from the [SYNTAX|~src:SYNTAX-36] file.
@@ -181,7 +184,6 @@ src:PLACES-392: Big chunks of this file are enclosed with square brackets. (Here
 	It’s also possible that the developer wanted to comment out groups of rooms. In ZIL, a semicolon in front of a pair of delimiters would have commented out everything between them.
 
 
-### V-HELP mention "Gazette" as well as reversion. (changed in r22)
 ### INSIDE-GUN has a bad adj 133 for HAND? HANDCUFFS too.
 
 ### for blog post:
