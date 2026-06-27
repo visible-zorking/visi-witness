@@ -165,6 +165,14 @@ glob:TOO-LATE: If you don’t enter the house before Linder finishes his drink, 
 
 rtn:TOO-LATE-F: The game ends with this addendum if you never enter the house.
 
+src:EVENTS-1143: `"Suddenly Phong appears and "` is a separate string, although the next string is printed directly after – the player can’t see the break.
+	This may have been an attempt at optimization. A few lines down, the next `TELL` is split at the same point. This pattern appears very frequently across the source code.
+	The ZIL compiler did not in fact optimize this case. The string appears twice in the compiled routine, not once.
+
+glob:MONICA-HAS-MOTIVE: When set, indicates exactly what revealed Monica’s resentment of her father. But the reason is never used; the [rtn:ARREST] logic only cares whether this has been set or not.
+
+glob:PHONG-HAS-MOTIVE: When set, indicates exactly what revealed Phong’s resentment of his employer. But this value is never used at all.
+
 
 rtn:V-PHONE: The telephone cheats a bit. The city codes `CHANDLER` and `ADELINE` (or `CH` and `AD`) are in the [BUZZ|~src:SYNTAX-6] list, like `A`, `AN`, and `THE`. `BUZZ` words are completely ignored by the parser. If you type `CALL CHANDLER 1729`, only the numeric part matters.
 
