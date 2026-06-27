@@ -77,7 +77,7 @@ function MechanismCase({ legal }: { legal:LegalState })
         <div>
             <h3 className="Arrest">(Discovering the gun mechanism:)</h3>
             <div className="Cond">
-                Any one of...
+                Any or all of...
             </div>
             <div className="Option">
                 { (legal.monica_admitted_helping ?
