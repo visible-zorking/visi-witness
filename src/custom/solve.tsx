@@ -30,6 +30,7 @@ export function SolvePage()
                 <BeforeArrest legal={ legal } />
                 <MechanismCase legal={ legal } />
                 <ArrestStiles legal={ legal } />
+                <ArrestMonicaPhong legal={ legal } />
                 <ArrestPhong legal={ legal } />
                 <ArrestLinder legal={ legal } />
             </div>
@@ -161,6 +162,107 @@ function ArrestPhong({ legal }: { legal:LegalState })
                     Not indicted; not at scene.
                 </div>
             </div>
+        </div>
+    );
+}
+
+function ArrestMonicaPhong({ legal }: { legal:LegalState })
+{
+    let open_clock = (legal.seen_monica_at_clock || legal.used_clock_key);
+    
+    let outcome;
+    if (legal.corpse_invisible || !legal.met_duffy) {
+        outcome = -1;
+    }
+    else if (legal.mechanism_proved) {
+        if (legal.gun_receipt && legal.monica_has_motive && open_clock) {
+            outcome = 0;
+        }
+        else if (!legal.gun_receipt) {
+            outcome = 1;
+        }
+        else if (legal.monica_has_motive) {
+            outcome = 2;
+        }
+        else if (open_clock) {
+            outcome = 3;
+        }
+        else {
+            // ### ???
+            outcome = 4;
+        }
+    }
+    else {
+        if (legal.seen_monica_at_j_box) {
+            if (legal.side_footprints_matched) 
+                outcome = 5;
+            else 
+                outcome = 6;
+        }
+        else {
+            if (legal.side_footprints_matched)
+                outcome = 7;
+            else
+                outcome = 8;
+        }
+    }
+    
+    return (
+        <div>
+            <h3 className="Arrest">ARREST MONICA AND PHONG</h3>
+            <div className="Cond">
+                Mechanism discovered:
+            </div>
+
+            <div className={ check(outcome, 0) }>
+                Acquitted; no access to house.
+            </div>
+            
+            <div className="Cond">
+                Mechanism not discovered:
+            </div>
+            
+            <div className="CondGroup">
+                <div className="Cond">
+                    Saw Monica at junction box (<IdRef val="GLOB:SEEN-MONICA-AT-J-BOX" />):
+                </div>
+            
+                <div className="CondGroup">
+                    <div className="Cond">
+                        Matched footprints in side yard (<IdRef val="GLOB:SIDE-FOOTPRINTS-MATCHED" />):
+                    </div>
+                    <div className={ check(outcome, 5) }>
+                        Not indicted; footprints not incriminating, workshop activity not proof.
+                    </div>
+                    <div className="Cond">
+                        Otherwise:
+                    </div>
+                    <div className={ check(outcome, 6) }>
+                        Not indicted; Phong not at scene, workshop activity not proof.
+                    </div>
+                </div>
+                
+                <div className="Cond">
+                    Did not see Monica at junction box:
+                </div>
+            
+                <div className="CondGroup">
+                    <div className="Cond">
+                        Matched footprints in side yard (<IdRef val="GLOB:SIDE-FOOTPRINTS-MATCHED" />):
+                    </div>
+                    <div className={ check(outcome, 7) }>
+                        Not indicted; footprints not incriminating, Monica not at scene.
+                    </div>
+                    <div className="Cond">
+                        Otherwise:
+                    </div>
+                    <div className={ check(outcome, 8) }>
+                        Not indicted; neither at scene.
+                    </div>
+                </div>
+                
+            </div>
+            
         </div>
     );
 }
