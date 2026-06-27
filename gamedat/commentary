@@ -165,9 +165,13 @@ glob:TOO-LATE: If you don’t enter the house before Linder finishes his drink, 
 
 rtn:TOO-LATE-F: The game ends with this addendum if you never enter the house.
 
+glob:PLAYER-NEAR-SHOT: The last time you examined the keyhole. If Linder triggers the gun and you just did this, you get it right in the eye. See [~rtn:FIRE-SHOT].
+
+
 src:EVENTS-1143: `"Suddenly Phong appears and "` is a separate string, although the next string is printed directly after – the player can’t see the break.
 	This may have been an attempt at optimization. A few lines down, the next `TELL` is split at the same point. This pattern appears very frequently across the source code.
 	The ZIL compiler did not in fact optimize this case. The string appears twice in the compiled routine, not once.
+
 
 glob:MONICA-HAS-MOTIVE: When set, indicates exactly what revealed Monica’s resentment of her father. But the reason is never used; the [rtn:ARREST] logic only cares whether this has been set or not.
 
