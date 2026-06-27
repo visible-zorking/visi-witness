@@ -191,7 +191,7 @@ function ArrestMonicaPhong({ legal }: { legal:LegalState })
             outcome = 3;
         }
         else {
-            // ### ???
+            // BUG
             outcome = 4;
         }
     }
@@ -231,6 +231,35 @@ function ArrestMonicaPhong({ legal }: { legal:LegalState })
                 </div>
                 <div className={ check(outcome, 0) }>
                     Phong pleads guilty and is deported; Monica gets probation.
+                </div>
+
+                <div className="Cond">
+                    <IdRef val="OBJ:GUN-RECEIPT" /> not found:
+                </div>
+                <div className={ check(outcome, 1) }>
+                    Acquitted; Phong not connected to gun, Monica did not conspire with him.
+                </div>
+                
+                <div className="Cond">
+                    <IdRef val="GLOB:MONICA-HAS-MOTIVE" />:
+                </div>
+                <div className={ check(outcome, 2) }>
+                    Acquitted; Phong lacked mechanical skills, no direct connection between Monica and gun.
+                </div>
+
+                <div className="Cond">
+                    You know Monica opened the clock (<IdRef val="GLOB:SEEN-MONICA-AT-CLOCK" /> <b>or</b> <IdRef val="GLOB:USED-CLOCK-KEY" />):
+                </div>
+                <div className={ check(outcome, 3) }>
+                    Acquitted; Phong lacked mechanical skills, Monica had no motive.
+                </div>
+
+                <div className="Cond">
+                    Otherwise:
+                </div>
+                <div className={ check(outcome, 4) }>
+                    Acquitted; Phong lacked mechanical skills... but the game does not explain why Monica got off! (This is a design bug.)
+                    <Commentary topic={ 'SRC:EVENTS-1774' } />
                 </div>
             </div>
             
