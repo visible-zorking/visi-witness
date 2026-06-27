@@ -28,6 +28,7 @@ export function SolvePage()
                     .<br/>.<br/>.<br/>.
                 </p>
                 <BeforeArrest legal={ legal } />
+                <ArrestPhong legal={ legal } />
             </div>
         </div>
     );
@@ -66,6 +67,69 @@ function BeforeArrest({ legal }: { legal:LegalState })
     );
 }
 
+function ArrestPhong({ legal }: { legal:LegalState })
+{
+    let outcome;
+    if (legal.corpse_invisible || !legal.met_duffy) {
+        outcome = -1;
+    }
+    else if (!legal.mechanism_proved) {
+        if (!legal.gun_receipt) 
+            outcome = 0;
+        else
+            outcome = 1;
+    }
+    else {
+        if (legal.side_footprints_matched)
+            outcome = 2;
+        else
+            outcome = 3;
+    }
+    
+    return (
+        <div>
+            <h3 className="Arrest">ARREST PHONG</h3>
+            <div className="Cond">
+                Mechanism discovered:
+            </div>
+
+            <div className="CondGroup">
+                <div className="Cond">
+                    Matched footprints in side yard (<IdRef val="GLOB:SIDE-FOOTPRINTS-MATCHED" />):
+                </div>
+                <div className={ check(outcome, 2) }>
+                    Not indicted; footprints not incriminating.
+                </div>
+                <div className="Cond">
+                    Otherwise:
+                </div>
+                <div className={ check(outcome, 3) }>
+                    Not	indicted; not at scene.
+                </div>
+            </div>
+            
+            <div className="Cond">
+                Mechanism not discovered:
+            </div>
+            
+            <div className="CondGroup">
+                <div className="Cond">
+                    <IdRef val="OBJ:GUN-RECEIPT" /> found:
+                </div>
+                <div className={ check(outcome, 1) }>
+                    Not indicted; no mechanical skills.
+                </div>
+                <div className="Cond">
+                    Otherwise:
+                </div>
+                <div className={ check(outcome, 0) }>
+                    Not	indicted; no link to murder weapon and no mechanical skills.
+                </div>
+            </div>
+        </div>
+    );
+}
+
 function check(outcome:number, val:number): string
 {
     if (outcome == val)
@@ -91,12 +155,5 @@ function IdRef({ val }: { val:string })
     
     return (
         <a href="#" className="Src_Id" onClick={ (ev) => evhan_click_id(ev, val) }><code>{ valname }</code></a>
-    )
-}
-
-function ArrestRef({ suspect, line }: { suspect:string, line:string })
-{
-    return (
-        <h3 className="Arrest"><a href="#" className="Src_Id" onClick={ (ev) => evhan_click_id(ev, 'SRC:'+line) }>ARREST { suspect }</a></h3>
     )
 }

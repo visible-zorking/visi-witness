@@ -77,6 +77,7 @@ export type LegalState = {
     used_clock_key: number;
     medical_report: number;
     side_footprints_matched: number;
+    mechanism_proved: boolean;
 }
 
 export function get_legal_state(zstate: ZStatePlus)
@@ -97,6 +98,11 @@ export function get_legal_state(zstate: ZStatePlus)
     let used_clock_key = zstate.globals[4];
     let medical_report = zstate.objects[36-1].attrs & 0x8000000; // MEDICAL-REPORT & TOUCHBIT
     let side_footprints_matched = zstate.globals[8];
+
+    let mechanism_proved =
+        !!(monica_admitted_helping
+           || phong_admitted_helping
+           || (player_pushed_button && (powder_analyzed || inside_gun)));
     
     return {
         present_time,
@@ -115,6 +121,7 @@ export function get_legal_state(zstate: ZStatePlus)
         used_clock_key,
         medical_report,
         side_footprints_matched,
+        mechanism_proved,
     };
 }
 
