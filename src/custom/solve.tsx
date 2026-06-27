@@ -30,6 +30,7 @@ export function SolvePage()
                 <BeforeArrest legal={ legal } />
                 <MechanismCase legal={ legal } />
                 <ArrestPhong legal={ legal } />
+                <ArrestLinder legal={ legal } />
             </div>
         </div>
     );
@@ -158,6 +159,55 @@ function ArrestPhong({ legal }: { legal:LegalState })
                 <div className={ check(outcome, 3) }>
                     Not indicted; not at scene.
                 </div>
+            </div>
+        </div>
+    );
+}
+
+function ArrestLinder({ legal }: { legal:LegalState })
+{
+    let outcome;
+    if (legal.corpse_invisible || !legal.met_duffy) {
+        outcome = -1;
+    }
+    else if (legal.mechanism_proved) {
+        if (legal.medical_report) 
+            outcome = 0;
+        else
+            outcome = 1;
+    }
+    else {
+        outcome = 2;
+    }
+    
+    return (
+        <div>
+            <h3 className="Arrest">ARREST LINDER (report as suicide)</h3>
+            <div className="Cond">
+                Mechanism discovered:
+            </div>
+            
+            <div className="CondGroup">
+                <div className="Cond">
+                    <IdRef val="OBJ:MEDICAL-REPORT" /> found:
+                </div>
+                <div className={ check(outcome, 0) }>
+                    Ruled as suicide.
+                </div>
+                <div className="Cond">
+                    Otherwise:
+                </div>
+                <div className={ check(outcome, 1) }>
+                    Evidence inconclusive; no motive.
+                </div>
+            </div>
+            
+            <div className="Cond">
+                Mechanism not discovered:
+            </div>
+
+            <div className={ check(outcome, 2) }>
+                Suicide from outside the window?
             </div>
         </div>
     );
