@@ -70,6 +70,8 @@ function BeforeArrest({ legal }: { legal:LegalState })
 
 function MechanismCase({ legal }: { legal:LegalState })
 {
+    let third = (legal.player_pushed_button && (legal.powder_analyzed || legal.inside_gun));
+    
     return (
         <div>
             <h3 className="Arrest">(Discovering the gun mechanism:)</h3>
@@ -87,6 +89,12 @@ function MechanismCase({ legal }: { legal:LegalState })
                    <span className="TimerActive">&#x2611;</span> :
                    <span className="TimerInactive">&#x2610;</span>) }{' '}
                 Phong admitted being involved (<IdRef val="GLOB:PHONG-ADMITTED-HELPING?" />)
+            </div>
+            <div className="Option">
+                { (third ?
+                   <span className="TimerActive">&#x2611;</span> :
+                   <span className="TimerInactive">&#x2610;</span>) }{' '}
+                Pushed button (<IdRef val="GLOB:PLAYER-PUSHED-BUTTON" />) <b>and</b> either analyzed the <IdRef val="OBJ:CLOCK-POWDER" /> <b>or</b> found the <IdRef val="OBJ:INSIDE-GUN" />.
             </div>
         </div>
     );
