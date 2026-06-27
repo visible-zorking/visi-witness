@@ -62,14 +62,23 @@ export function get_goal_tables(engine: GnustoEngine, state: ZState): SpecificDe
 
 export type LegalState = {
     present_time: number;
+    corpse_invisible: number,
+    met_duffy: number,
+    monica_limbo: boolean;
 }
 
 export function get_legal_state(zstate: ZStatePlus)
 {
     let present_time = zstate.globals[49];
+    let corpse_invisible = zstate.objects[12-1].attrs & 0x80000; // CORPSE & INVISIBLE
+    let met_duffy = zstate.globals[41];
+    let monica_limbo = (zstate.objects[68-1].parent == 221); // MONICA.parent == LIMBO
     
     return {
         present_time,
+        corpse_invisible,
+        met_duffy,
+        monica_limbo,
     };    
 }
 
