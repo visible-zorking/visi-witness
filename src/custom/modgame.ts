@@ -65,6 +65,18 @@ export type LegalState = {
     corpse_invisible: number,
     met_duffy: number,
     monica_limbo: boolean;
+    monica_admitted_helping: number;
+    phong_admitted_helping: number;
+    player_pushed_button: number;
+    powder_analyzed: number;
+    inside_gun: number;
+    gun_receipt: number;
+    monica_has_motive: number;
+    seen_monica_at_clock: number;
+    seen_monica_at_j_box: number;
+    used_clock_key: number;
+    medical_report: number;
+    side_footprints_matched: number;
 }
 
 export function get_legal_state(zstate: ZStatePlus)
@@ -73,13 +85,37 @@ export function get_legal_state(zstate: ZStatePlus)
     let corpse_invisible = zstate.objects[12-1].attrs & 0x80000; // CORPSE & INVISIBLE
     let met_duffy = zstate.globals[41];
     let monica_limbo = (zstate.objects[68-1].parent == 221); // MONICA.parent == LIMBO
+    let monica_admitted_helping = zstate.globals[138];
+    let phong_admitted_helping = zstate.globals[148];
+    let player_pushed_button = zstate.globals[160];
+    let powder_analyzed = zstate.globals[9];
+    let inside_gun = zstate.objects[40-1].attrs & 0x8000000; // INSIDE-GUN & TOUCHBIT
+    let gun_receipt = zstate.objects[55-1].attrs & 0x8000000; // GUN-RECEIPT & TOUCHBIT
+    let monica_has_motive = zstate.globals[142];
+    let seen_monica_at_clock = zstate.globals[6];
+    let seen_monica_at_j_box = zstate.globals[5];
+    let used_clock_key = zstate.globals[4];
+    let medical_report = zstate.objects[36-1].attrs & 0x8000000; // MEDICAL-REPORT & TOUCHBIT
+    let side_footprints_matched = zstate.globals[8];
     
     return {
         present_time,
         corpse_invisible,
         met_duffy,
         monica_limbo,
-    };    
+        monica_admitted_helping,
+        phong_admitted_helping,
+        player_pushed_button,
+        powder_analyzed,
+        inside_gun,
+        gun_receipt,
+        monica_has_motive,
+        seen_monica_at_clock,
+        seen_monica_at_j_box,
+        used_clock_key,
+        medical_report,
+        side_footprints_matched,
+    };
 }
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
