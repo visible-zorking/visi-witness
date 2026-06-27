@@ -5,12 +5,13 @@ import { ZilSourceLoc } from '../visi/main';
 import { ReactCtx } from '../visi/context';
 import { Commentary } from '../visi/widgets';
 
-//import { get_legal_state, LegalState } from './modgame';
+import { get_legal_state, LegalState } from './modgame';
 
 export function SolvePage()
 {
     let rctx = useContext(ReactCtx);
-    //let legal = get_legal_state(rctx.zstate);
+    let legal = get_legal_state(rctx.zstate);
+    console.log('### legal', legal); //###
 
     return (
         <div className="ScrollContent">

@@ -1,5 +1,5 @@
 import { unpack_address } from '../visi/gametypes';
-import { ZState, GnustoEngine } from '../visi/zstate';
+import { ZState, ZStatePlus, GnustoEngine } from '../visi/zstate';
 import { gamedat_routine_names, gamedat_global_names, gamedat_string_map } from '../visi/gamedat';
 
 export type SpecificDeadline = {
@@ -58,6 +58,19 @@ export function get_goal_tables(engine: GnustoEngine, state: ZState): SpecificDe
         movegoals: movegoals,
         movetimes: movetimes,
     }
+}
+
+export type LegalState = {
+    present_time: number;
+}
+
+export function get_legal_state(zstate: ZStatePlus)
+{
+    let present_time = zstate.globals[49];
+    
+    return {
+        present_time,
+    };    
 }
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
