@@ -62,6 +62,11 @@ export function get_goal_tables(engine: GnustoEngine, state: ZState): SpecificDe
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
 {
+    if (topic == 'SHOW-SOLUTION-TAB') {
+        window.dispatchEvent(new Event('show-solution-tab'));
+        return null;
+    }
+    
     return null;
 }
 
