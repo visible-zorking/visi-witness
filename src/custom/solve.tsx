@@ -28,6 +28,7 @@ export function SolvePage()
                     .<br/>.<br/>.<br/>.
                 </p>
                 <BeforeArrest legal={ legal } />
+                <MechanismCase legal={ legal } />
                 <ArrestPhong legal={ legal } />
             </div>
         </div>
@@ -49,19 +50,43 @@ function BeforeArrest({ legal }: { legal:LegalState })
     
     return (
         <div>
-            <h3 className="Arrest">(Pre-crime)</h3>
+            <h3 className="Arrest">(Pre-crime:)</h3>
             <div className="Cond">
-                You haven't seen Linder die:
+                You haven&#x2019;t seen Linder die:
             </div>
             <div className={ check(outcome, 0) }>
                 You have no evidence of a crime yet.
             </div>
             
             <div className="Cond">
-                You haven't met Sergeant Duffy yet tonight (<IdRef val="GLOB:MET-DUFFY?" />):
+                You haven&#x2019;t met Sergeant Duffy yet tonight (<IdRef val="GLOB:MET-DUFFY?" />):
             </div>
             <div className={ check(outcome, 1) }>
-                 You'll have to wait for him to help you make the arrest.
+                 You&#x2019;ll have to wait for him to help you make the arrest.
+            </div>
+        </div>
+    );
+}
+
+function MechanismCase({ legal }: { legal:LegalState })
+{
+    return (
+        <div>
+            <h3 className="Arrest">(Discovering the gun mechanism:)</h3>
+            <div className="Cond">
+                Any one of...
+            </div>
+            <div className="Option">
+                { (legal.monica_admitted_helping ?
+                   <span className="TimerActive">&#x2611;</span> :
+                   <span className="TimerInactive">&#x2610;</span>) }{' '}
+                Monica admitted setting it up (<IdRef val="GLOB:MONICA-ADMITTED-HELPING?" />)
+            </div>
+            <div className="Option">
+                { (legal.phong_admitted_helping ?
+                   <span className="TimerActive">&#x2611;</span> :
+                   <span className="TimerInactive">&#x2610;</span>) }{' '}
+                Phong admitted being involved (<IdRef val="GLOB:PHONG-ADMITTED-HELPING?" />)
             </div>
         </div>
     );
