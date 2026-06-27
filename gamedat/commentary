@@ -177,6 +177,10 @@ glob:MONICA-HAS-MOTIVE: When set, indicates exactly what revealed Monica’s res
 
 glob:PHONG-HAS-MOTIVE: When set, indicates exactly what revealed Phong’s resentment of his employer. But this value is never used at all.
 
+src:EVENTS-1774: There is a gap in the `ARREST` logic here. If you have discovered the gun mechanism and the [~obj:GUN-RECEIPT], but not uncovered Monica’s motive or her clock key, then `ARREST MONICA AND PHONG` gives the response:
+	“While Monica could have conspired with him and aided him, she too was acquitted of conspiracy, because”
+	It would be appropriate to finish “...she had no apparent motive,” but the game fails to do that.
+
 
 rtn:V-PHONE: The telephone cheats a bit. The city codes `CHANDLER` and `ADELINE` (or `CH` and `AD`) are in the [BUZZ|~src:SYNTAX-6] list, like `A`, `AN`, and `THE`. `BUZZ` words are completely ignored by the parser. If you type `CALL CHANDLER 1729`, only the numeric part matters.
 
