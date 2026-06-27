@@ -29,6 +29,7 @@ export function SolvePage()
                 </p>
                 <BeforeArrest legal={ legal } />
                 <MechanismCase legal={ legal } />
+                <ArrestStiles legal={ legal } />
                 <ArrestPhong legal={ legal } />
                 <ArrestLinder legal={ legal } />
             </div>
@@ -209,6 +210,42 @@ function ArrestLinder({ legal }: { legal:LegalState })
             <div className={ check(outcome, 2) }>
                 Suicide from outside the window?
             </div>
+        </div>
+    );
+}
+
+function ArrestStiles({ legal }: { legal:LegalState })
+{
+    let outcome;
+    if (legal.corpse_invisible || !legal.met_duffy) {
+        outcome = -1;
+    }
+    else if (legal.mechanism_proved) {
+        outcome = 0;
+    }
+    else {
+        outcome = 1;
+    }
+    
+    return (
+        <div>
+            <h3 className="Arrest">ARREST STILES</h3>
+            <div className="Cond">
+                Mechanism discovered:
+            </div>
+
+            <div className={ check(outcome, 0) }>
+                Acquitted; no access to house.
+            </div>
+            
+            <div className="Cond">
+                Mechanism not discovered:
+            </div>
+            
+            <div className={ check(outcome, 1) }>
+                Convicted, but conviction later reversed.
+            </div>
+            
         </div>
     );
 }
