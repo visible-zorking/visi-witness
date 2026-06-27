@@ -73,7 +73,7 @@ function ArrestPhong({ legal }: { legal:LegalState })
     if (legal.corpse_invisible || !legal.met_duffy) {
         outcome = -1;
     }
-    else if (!legal.mechanism_proved) {
+    else if (legal.mechanism_proved) {
         if (!legal.gun_receipt) 
             outcome = 0;
         else
@@ -92,25 +92,6 @@ function ArrestPhong({ legal }: { legal:LegalState })
             <div className="Cond">
                 Mechanism discovered:
             </div>
-
-            <div className="CondGroup">
-                <div className="Cond">
-                    Matched footprints in side yard (<IdRef val="GLOB:SIDE-FOOTPRINTS-MATCHED" />):
-                </div>
-                <div className={ check(outcome, 2) }>
-                    Not indicted; footprints not incriminating.
-                </div>
-                <div className="Cond">
-                    Otherwise:
-                </div>
-                <div className={ check(outcome, 3) }>
-                    Not	indicted; not at scene.
-                </div>
-            </div>
-            
-            <div className="Cond">
-                Mechanism not discovered:
-            </div>
             
             <div className="CondGroup">
                 <div className="Cond">
@@ -123,7 +104,26 @@ function ArrestPhong({ legal }: { legal:LegalState })
                     Otherwise:
                 </div>
                 <div className={ check(outcome, 0) }>
-                    Not	indicted; no link to murder weapon and no mechanical skills.
+                    Not indicted; no link to murder weapon and no mechanical skills.
+                </div>
+            </div>
+            
+            <div className="Cond">
+                Mechanism not discovered:
+            </div>
+
+            <div className="CondGroup">
+                <div className="Cond">
+                    Matched footprints in side yard (<IdRef val="GLOB:SIDE-FOOTPRINTS-MATCHED" />):
+                </div>
+                <div className={ check(outcome, 2) }>
+                    Not indicted; footprints not incriminating.
+                </div>
+                <div className="Cond">
+                    Otherwise:
+                </div>
+                <div className={ check(outcome, 3) }>
+                    Not indicted; not at scene.
                 </div>
             </div>
         </div>
