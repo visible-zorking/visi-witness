@@ -174,6 +174,9 @@ function ArrestMonicaPhong({ legal }: { legal:LegalState })
     if (legal.corpse_invisible || !legal.met_duffy) {
         outcome = -1;
     }
+    else if (legal.monica_limbo) {
+        outcome = 9;
+    }
     else if (legal.mechanism_proved) {
         if (legal.gun_receipt && legal.monica_has_motive && open_clock) {
             outcome = 0;
@@ -211,11 +214,24 @@ function ArrestMonicaPhong({ legal }: { legal:LegalState })
         <div>
             <h3 className="Arrest">ARREST MONICA AND PHONG</h3>
             <div className="Cond">
+                Monica at the movies:
+            </div>
+
+            <div className={ check(outcome, 9) }>
+                Cannot arrest her until she returns.
+            </div>
+            
+            <div className="Cond">
                 Mechanism discovered:
             </div>
 
-            <div className={ check(outcome, 0) }>
-                Acquitted; no access to house.
+            <div className="CondGroup">
+                <div className="Cond">
+                    <IdRef val="OBJ:GUN-RECEIPT" /> found <b>and</b> <IdRef val="GLOB:MONICA-HAS-MOTIVE" /> <b>and</b> you know Monica opened the clock (<IdRef val="GLOB:SEEN-MONICA-AT-CLOCK" /> <b>or</b> <IdRef val="GLOB:USED-CLOCK-KEY" />):
+                </div>
+                <div className={ check(outcome, 0) }>
+                    Phong pleads guilty and is deported; Monica gets probation.
+                </div>
             </div>
             
             <div className="Cond">
