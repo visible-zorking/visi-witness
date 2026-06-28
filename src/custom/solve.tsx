@@ -31,6 +31,7 @@ export function SolvePage()
                 <MechanismCase legal={ legal } />
                 <ArrestStiles legal={ legal } />
                 <ArrestMonicaPhong legal={ legal } />
+                <ArrestMonica legal={ legal } />
                 <ArrestPhong legal={ legal } />
                 <ArrestLinder legal={ legal } />
             </div>
@@ -306,6 +307,94 @@ function ArrestMonicaPhong({ legal }: { legal:LegalState })
                     </div>
                 </div>
                 
+            </div>
+            
+        </div>
+    );
+}
+
+function ArrestMonica({ legal }: { legal:LegalState })
+{
+    let open_clock = (legal.seen_monica_at_clock || legal.used_clock_key);
+    
+    let outcome;
+    if (legal.corpse_invisible || !legal.met_duffy) {
+        outcome = -1;
+    }
+    else if (legal.monica_limbo) {
+        outcome = 9;
+    }
+    else if (legal.mechanism_proved) {
+        if (legal.monica_has_motive && open_clock)
+            outcome = 0;
+        else if (legal.monica_has_motive)
+            outcome = 1;
+        else
+            outcome = 2;
+    }
+    else {
+        if (legal.seen_monica_at_j_box)
+            outcome = 3;
+        else
+            outcome = 4;
+    }
+    
+    return (
+        <div>
+            <h3 className="Arrest">ARREST MONICA</h3>
+            <div className="Cond">
+                Monica at the movies:
+            </div>
+
+            <div className={ check(outcome, 9) }>
+                Cannot arrest her until she returns.
+            </div>
+            
+            <div className="Cond">
+                Mechanism discovered:
+            </div>
+
+            <div className="CondGroup">
+                <div className="Cond">
+                    <IdRef val="GLOB:MONICA-HAS-MOTIVE" /> <b>and</b> you know Monica opened the clock (<IdRef val="GLOB:SEEN-MONICA-AT-CLOCK" /> <b>or</b> <IdRef val="GLOB:USED-CLOCK-KEY" />):
+                </div>
+                <div className={ check(outcome, 0) }>
+                    Complete solution! See the <IdRef val="RTN:EPILOGUE" /> for the author&#x2019;s summary.
+                </div>
+                
+                <div className="Cond">
+                    <IdRef val="GLOB:MONICA-HAS-MOTIVE" />:
+                </div>
+                <div className={ check(outcome, 1) }>
+                    Acquitted; no link to murder weapon.
+                </div>
+                
+                <div className="Cond">
+                    Otherwise:
+                </div>
+                <div className={ check(outcome, 2) }>
+                    Acquitted; no motive.
+                </div>
+            </div>
+            
+            <div className="Cond">
+                Mechanism not discovered:
+            </div>
+            
+            <div className="CondGroup">
+                <div className="Cond">
+                    Saw Monica at junction box (<IdRef val="GLOB:SEEN-MONICA-AT-J-BOX" />):
+                </div>
+                <div className={ check(outcome, 3) }>
+                    Not indicted; workshop activity not proof.
+                </div>
+                
+                <div className="Cond">
+                    Otherwise:
+                </div>
+                <div className={ check(outcome, 4) }>
+                    Not indicted; Monica not at scene.
+                </div>
             </div>
             
         </div>
