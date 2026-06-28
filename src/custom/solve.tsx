@@ -11,7 +11,6 @@ export function SolvePage()
 {
     let rctx = useContext(ReactCtx);
     let legal = get_legal_state(rctx.zstate);
-    console.log('### legal', legal); //###
 
     return (
         <div className="ScrollContent">
