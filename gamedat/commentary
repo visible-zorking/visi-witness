@@ -18,6 +18,11 @@ src:WITNESS-4: Yes, I added that comment. As it says, I had to revert a few sour
 rtn:V-HELP: Earlier releases of the game referred to the manual as “your Nat’l Detective Gazette”. (Which is how the manual was portrayed in the folio edition.) The conceit was dropped in the grey-box edition (release 21).
 	A future release would have added a nudge about buying the InvisiClues. For consistency, I have reverted that change in the source code display. (See [comment|~src:WITNESS-4].)
 
+src:VERBS-222: See [rtn:TANDY?]
+
+rtn:TANDY?: The TRS-80 interpreter set a special bit which told the game to change certain messages. *The Witness* has more Tandy modifications than any other Infocom game. It adds the line “Licensed to Tandy Corporation”, and also (sort of) cleans up some period 1930s jargon. (Changing “private dick” to “private eye”, for example.)
+	For a complete list of “Tandy bit” behavior changes in Infocom games, [see this page|https://ifarchive.org/if-archive/infocom/info/tandy_bits.html].
+	To see the Tandy bit in action, type the magic command `$DB.$TA.$DB`.
 
 GRAMMAR-LEGEND: This is the list of verb forms which the game recognizes. (Simple directions like `NORTH` are a special case; they’re not listed here.) These are compiled from the [SYNTAX|~src:SYNTAX-36] file.
 	Objects in a verb line have various flags which give hints about their usage. An object attribute (like `LIGHTBIT`) means that if the player doesn’t name an object, the parser will try to guess one with that attribute.
