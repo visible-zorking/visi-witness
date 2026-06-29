@@ -226,7 +226,3 @@ src:PEOPLE-437: These lines are not compiled in the game file. Either they were 
 	The following line (“I’m sorry, Detective, but I can’t help you”) exists in the game file but is unreachable. (Unhandled queries produce a generic “doesn’t seem to know about that” [response|~src:VERBS-744].) I say compiler bug.
 
 
-### for blog post:
-### Phong Hui
-### the reversion
-### difficulty
