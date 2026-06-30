@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="4"
-     inkscape:cx="-55.875"
-     inkscape:cy="66.25"
+     inkscape:zoom="1"
+     inkscape:cx="665"
+     inkscape:cy="495"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="166"
      inkscape:window-y="121"
      inkscape:window-maximized="0"
-     inkscape:current-layer="mobilelayer"
+     inkscape:current-layer="roomlayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -191,7 +191,7 @@
      id="roomlayer"
      style="display:inline">
     <rect
-       id="r-north-hall"
+       id="r-back-yard"
        width="21.166666"
        height="15.875001"
        x="251.35416"
@@ -199,7 +199,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-corridor-2"
+       id="r-hall-3"
        width="21.166666"
        height="15.875001"
        x="174.62497"
@@ -207,7 +207,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-corridor-3"
+       id="r-entry"
        width="21.166666"
        height="15.875001"
        x="137.58333"
@@ -215,7 +215,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-master-bedroom"
+       id="r-bathroom"
        width="15.874992"
        height="15.875002"
        x="214.3125"
@@ -223,7 +223,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-dunbar-room"
+       id="r-office"
        width="21.166666"
        height="15.875001"
        x="211.66675"
@@ -231,7 +231,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-upstairs-closet"
+       id="r-hall-2"
        width="21.166666"
        height="15.875001"
        x="174.62489"
@@ -239,7 +239,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-library"
+       id="r-kitchen"
        width="21.166666"
        height="15.875001"
        x="137.58333"
@@ -247,7 +247,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-george-room"
+       id="r-storage-closet"
        width="21.166666"
        height="15.875001"
        x="137.58333"
@@ -255,7 +255,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-george-bath"
+       id="r-hall-4"
        width="21.166666"
        height="15.875001"
        x="174.62497"
@@ -263,7 +263,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-bedroom-balcony"
+       id="r-linder-room"
        width="21.166666"
        height="15.875001"
        x="211.66667"
@@ -271,15 +271,15 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="r-xxx"
+       id="r-limbo"
        width="15.87501"
        height="15.875002"
-       x="431.27081"
-       y="378.35419"
+       x="79.375"
+       y="52.916668"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect1"
+       id="r-rock-garden"
        width="21.166666"
        height="15.875001"
        x="251.35416"
@@ -287,7 +287,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect2"
+       id="r-living-room"
        width="21.166666"
        height="15.875001"
        x="174.62498"
@@ -295,7 +295,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect3"
+       id="r-hall-1"
        width="21.166666"
        height="15.875001"
        x="174.62497"
@@ -303,7 +303,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect4"
+       id="r-dining-room"
        width="21.166666"
        height="15.875001"
        x="137.58333"
@@ -311,7 +311,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect5"
+       id="r-butler-room"
        width="21.166672"
        height="13.229163"
        x="137.58333"
@@ -319,7 +319,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect6"
+       id="r-monica-room"
        width="21.166666"
        height="15.875001"
        x="211.66666"
@@ -327,7 +327,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect7"
+       id="r-tub-room"
        width="10.58333"
        height="15.874998"
        x="232.83333"
@@ -335,7 +335,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect8"
+       id="r-toilet-room"
        width="10.58333"
        height="15.874998"
        x="201.08333"
@@ -343,7 +343,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect23"
+       id="r-butler-bath"
        width="21.166666"
        height="10.583335"
        x="137.58333"
@@ -351,7 +351,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect38"
+       id="r-office-porch"
        width="21.166666"
        height="15.875001"
        x="251.35423"
@@ -359,7 +359,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect42"
+       id="r-garage"
        width="21.166666"
        height="15.875001"
        x="174.62506"
@@ -367,7 +367,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect43"
+       id="r-workshop"
        width="21.166666"
        height="15.875001"
        x="211.66666"
@@ -375,7 +375,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect45"
+       id="r-front-porch"
        width="21.166666"
        height="15.875001"
        x="103.18749"
@@ -383,7 +383,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect46"
+       id="r-driveway"
        width="21.166666"
        height="15.875001"
        x="103.1875"
@@ -391,7 +391,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect47"
+       id="r-front-yard"
        width="21.166666"
        height="15.875001"
        x="103.18749"
@@ -399,7 +399,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect53"
+       id="r-side-yard"
        width="21.166666"
        height="15.875001"
        x="174.62506"
@@ -407,7 +407,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect54"
+       id="r-office-path"
        width="21.166666"
        height="15.875001"
        x="251.35416"
@@ -415,7 +415,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect55"
+       id="r-driveway-entrance"
        width="21.166666"
        height="15.875001"
        x="103.1875"
@@ -699,14 +699,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="439.20825"
-       y="387.87921"
+       x="87.312439"
+       y="62.441692"
        id="text5"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="439.20825"
-         y="387.87921"
-         id="tspan5">XXX</tspan></text>
+         x="87.312439"
+         y="62.441692"
+         id="tspan5">Limbo</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
@@ -857,7 +857,7 @@
          style="stroke-width:1"
          x="261.93747"
          y="19.579166"
-         id="tspan37">Back</tspan><tspan
+         id="tspan37">Rock</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
          x="261.93747"
