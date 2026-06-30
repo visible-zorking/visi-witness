@@ -202,6 +202,11 @@ obj:DRIVEWAY-GATE: No `DRIVEWAY-GATE` object is defined in the source! But the [
 src:EVENTS-606: The table refers to an `I-LINDER` routine, but no such routine exists! The same goes for `I-CAT`.
 	The compiler silently filled in zeroes for these table entries. Linder (and the cat) are controlled by hand-coded timer code, not by the [glob:GOAL-TABLES].
 
+src:PLACES-2630: An office bathroom, commented out.
+	Note that the `ACTION` property refers to `LIBRARY-BALCONY-F`, which is a *Deadline* room name. This code must have been copied over and barely edited before it was discarded.
+	
+src:PLACES-2889: This commented-out scenery object is pasted directly from *Deadline*.
+
 src:WITNESS-49: The game defines diagonal directions, but they have no [SYNONYM|src:SYNTAX-22] lines and thus are not recognized by the parser.
 
 src:SYNTAX-22: The `SYNONYM` lines for the diagonal directions are commented out. So the parser does not recognize them, even though they’re defined in the [DIRECTIONS|src:WITNESS-49] line.
