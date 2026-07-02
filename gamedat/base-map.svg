@@ -166,7 +166,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 129.64582,161.39584 h 21.16667"
+       d="m 58.208329,161.39585 92.604161,-1e-5"
        id="path52"
        sodipodi:nodetypes="cc" />
     <path
@@ -439,10 +439,6 @@
        id="path22"
        sodipodi:nodetypes="cc" />
     <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;paint-order:stroke fill markers"
-       d="M 18.256251,201.08334 H 132.02707"
-       id="path46" />
-    <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;-inkscape-stroke:none;paint-order:stroke fill markers"
        d="M 6.6145842,137.58334 H 31.749999"
        id="path59"
@@ -455,6 +451,31 @@
        style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#6292df;fill-opacity:0.5;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000"
        d="m 6.6556627,119.85607 c -0.18216,-0.004 -0.36813,0.0185 -0.55242,0.0713 -0.96152,0.27576 -1.5521,1.30845 -1.27021,2.29134 0.28189,0.98289 1.30845,1.55209 2.29134,1.2702 0.98289,-0.28189 1.55209,-1.30844 1.2702,-2.29133 -0.22903,-0.7986 -0.94954,-1.3238 -1.73891,-1.34152 z"
        id="path16-8" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;paint-order:stroke fill markers"
+       d="M 201.08332,31.750002 V 185.20835"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;paint-order:stroke fill markers"
+       d="M 58.208329,187.85418 H 190.49999"
+       id="path3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;paint-order:stroke fill markers"
+       d="M 52.916663,185.20835 V 116.41668"
+       id="path4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;paint-order:stroke fill markers"
+       d="M 58.208329,158.75001 H 113.77083"
+       id="path5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;paint-order:stroke fill markers"
+       d="M 124.35416,58.208338 V 129.64584"
+       id="path6"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"
