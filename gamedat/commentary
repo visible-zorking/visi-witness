@@ -190,9 +190,16 @@ rtn:I-LINDER-IN-OFFICE: Linder pesters you to sit down.
 rtn:I-LINDER-EXPLAIN: Linder’s spiel.
 	Once this fires, you have nothing to do but interrogate Linder until Stiles arrives on the office porch (see [~rtn:I-STILES]).
 
+rtn:I-STILES-ARRIVE: The timer for Stiles arriving on the scene. This places him in the [~obj:OFFICE-PATH] and then sets his destination to the [~obj:OFFICE-PORCH]. When Stiles reaches there, his general timer routine ([rtn:I-STILES]) will kick off the main event.
+
 rtn:I-LINDER-RETIRES: Linder goes to bed. This can only happen in the [glob:TOO-LATE] case, of course.
 
 rtn:I-PHONG-RETIRES: Phong goes to bed. This can only happen in the [glob:TOO-LATE] case; after the shooting he’s too wound up to sleep.
+
+rtn:I-STILES: The timer routine which handles Stiles’s overall actions. Other routines establish destinations for him ([rtn:I-STILES-ARRIVE] and so on). This routine reacts when he arrives. For example, when Stiles reaches the [~obj:OFFICE-PORCH], Linder enacts his plan. When he reaches the [~obj:LIVING-ROOM] (dragged by Duffy), he gets handcuffed to the davenport.
+
+glob:DUFFY-WITH-STILES: Sgt. Duffy has no representation in the game. (He has a topic object, [~obj:GLOBAL-DUFFY], but that never appears on stage.)
+	When Duffy hauls Stiles from the entry to the living room, it’s really just Stiles moving of his own accord. The `DUFFY-WITH-STILES` flag describes him as being led by Duffy.
 
 
 src:EVENTS-1143: `"Suddenly Phong appears and "` is a separate string, although the next string is printed directly after – the player can’t see the break.
