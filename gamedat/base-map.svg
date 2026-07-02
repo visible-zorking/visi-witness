@@ -23,7 +23,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     showgrid="true"
+     showgrid="false"
      inkscape:zoom="1"
      inkscape:cx="414.5"
      inkscape:cy="456"
@@ -47,7 +47,7 @@
        opacity="0.14902"
        empspacing="5"
        enabled="true"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <style
      id="style1">svg.DarkTheme { filter: invert(90%) hue-rotate(180deg); }
@@ -473,20 +473,20 @@
        id="path6"
        sodipodi:nodetypes="cc" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1;marker-mid:url(#Dot-3)"
        d="m 150.81249,140.22918 h -21.16667 l 0,15.875 21.16667,0"
        id="path7"
        sodipodi:nodetypes="cccc" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers;marker-mid:url(#Dot-3);marker-start:url(#Dot-3);marker-end:url(#Dot-3)"
        d="M 164.04166,58.208338 V 79.375007"
        id="path8" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers;marker-start:url(#Dot-3);marker-end:url(#Dot-3);marker-mid:url(#Dot-3)"
        d="M 150.81249,31.750002 H 113.77083 V 47.625005 79.375007 105.83334 H 92.60416"
        id="path10" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers"
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#6292df;stroke-width:2.11699997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;paint-order:stroke fill markers;marker-mid:url(#Dot-3);marker-start:url(#Dot-3);marker-end:url(#Dot-3)"
        d="m 58.20833,31.750002 v 84.666678 50.27083 29.10417 h 55.5625 76.72916 V 140.22918 89.95834 31.750002"
        id="path11" />
   </g>
