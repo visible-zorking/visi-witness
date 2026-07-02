@@ -185,6 +185,15 @@ rtn:I-LINDER-FOLLOWS-YOU: Timer routine for (surprise) Linder following you arou
 
 rtn:I-LINDER-TO-OFFICE: Transports you to the office when Linder is ready to talk. Unless you’re wandering outside at the time, in which case he gives up on you ([glob:TOO-LATE]).
 
+rtn:I-LINDER-IN-OFFICE: Linder pesters you to sit down.
+
+rtn:I-LINDER-EXPLAIN: Linder’s spiel.
+	Once this fires, you have nothing to do but interrogate Linder until Stiles arrives on the office porch (see [~rtn:I-STILES]).
+
+rtn:I-LINDER-RETIRES: Linder goes to bed. This can only happen in the [glob:TOO-LATE] case, of course.
+
+rtn:I-PHONG-RETIRES: Phong goes to bed. This can only happen in the [glob:TOO-LATE] case; after the shooting he’s too wound up to sleep.
+
 
 src:EVENTS-1143: `"Suddenly Phong appears and "` is a separate string, although the next string is printed directly after – the player can’t see the break.
 	This may have been an attempt at optimization. A few lines down, the next `TELL` is split at the same point. This pattern appears very frequently across the source code.
