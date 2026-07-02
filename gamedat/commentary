@@ -172,6 +172,8 @@ rtn:TOO-LATE-F: The game ends with this addendum if you never enter the house.
 
 glob:PLAYER-NEAR-SHOT: The last time you examined the keyhole. If Linder triggers the gun and you just did this, you get it right in the eye. See [~rtn:FIRE-SHOT].
 
+obj:CAT: Poor Asta’s only function is to disappear when the gun goes off. She never returns.
+
 
 src:EVENTS-1143: `"Suddenly Phong appears and "` is a separate string, although the next string is printed directly after – the player can’t see the break.
 	This may have been an attempt at optimization. A few lines down, the next `TELL` is split at the same point. This pattern appears very frequently across the source code.
