@@ -25,14 +25,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="665"
+     inkscape:cx="665.5"
      inkscape:cy="495"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="166"
-     inkscape:window-y="121"
+     inkscape:window-y="93"
      inkscape:window-maximized="0"
-     inkscape:current-layer="roomlayer"
+     inkscape:current-layer="mobilelayer"
      showguides="false">
     <inkscape:grid
        id="grid1"
@@ -458,7 +458,7 @@
      id="mobilelayer"
      inkscape:label="Mobiles">
     <g
-       id="mob-coates"
+       id="mob-cat"
        transform="translate(15.875,15.874998)">
       <rect
          style="fill:#dcd7fa;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -481,7 +481,7 @@
            y="1.0478791">Cat</tspan></text>
     </g>
     <g
-       id="mob-mrs-robner"
+       id="mob-linder"
        transform="translate(15.870883,25.410455)">
       <rect
          style="fill:#fad2f5;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -504,7 +504,7 @@
            y="1.0478791">Linder</tspan></text>
     </g>
     <g
-       id="mob-rourke"
+       id="mob-phong"
        transform="translate(15.870883,35.993789)">
       <rect
          style="fill:#fad2f5;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -527,7 +527,7 @@
            y="1.0478791">Phong</tspan></text>
     </g>
     <g
-       id="mob-dunbar"
+       id="mob-monica"
        transform="translate(15.870883,46.577123)">
       <rect
          style="fill:#fad2f5;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -550,7 +550,7 @@
            y="1.0478791">Monica</tspan></text>
     </g>
     <g
-       id="mob-george"
+       id="mob-stiles"
        transform="translate(15.870883,57.160457)">
       <rect
          style="fill:#fad2f5;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
