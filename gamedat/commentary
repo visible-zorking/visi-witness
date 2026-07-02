@@ -236,6 +236,14 @@ src:PLACES-2630: An office bathroom, commented out.
 	
 src:PLACES-2889: This commented-out scenery object is pasted directly from *Deadline*.
 
+obj:BATHTUB: For efficiency, the game defines a single bathtub which is shared between the [~obj:TUB-ROOM] and the [~obj:BUTLER-BATH]. If you put an object in the tub, you can `EXAMINE TUB` in either location and see it.
+	(But you can’t do anything with it. The parser doesn’t recognize the contents of a floating container. So much for the magical teleporting tub portal.)
+	(c:Torbjörn Andersson)
+
+obj:BED: For efficiency, the game defines a single bathtub which is shared between [~obj:MONICA-ROOM] and [~obj:BUTLER-ROOM]. (Also [~obj:LINDER-ROOM], but there the [~obj:FOUR-POSTER] takes precedence.) If you put an object on the bed, you can `EXAMINE BED` in either location and see it.
+	(But you can’t do anything with it. The parser doesn’t recognize the contents of a floating container. So much for the magical teleporting bed portal.)
+	(c:Torbjörn Andersson)
+
 src:WITNESS-49: The game defines diagonal directions, but they have no [SYNONYM|src:SYNTAX-22] lines and thus are not recognized by the parser.
 
 src:SYNTAX-22: The `SYNONYM` lines for the diagonal directions are commented out. So the parser does not recognize them, even though they’re defined in the [DIRECTIONS|src:WITNESS-49] line.
