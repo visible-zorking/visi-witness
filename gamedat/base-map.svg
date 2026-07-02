@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="1"
-     inkscape:cx="679.5"
-     inkscape:cy="513"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="412.59681"
+     inkscape:cy="456.08387"
      inkscape:window-width="2240"
      inkscape:window-height="1220"
      inkscape:window-x="165"
@@ -106,7 +106,7 @@
     <path
        id="rect131"
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1f1f1;fill-opacity:1;fill-rule:evenodd;stroke:#c8c8c8;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       d="m 66.145831,13.229167 -7.9375,7.937501 V 166.68751 l 7.9375,7.9375 H 166.68749 l 7.9375,-7.9375 V 21.166668 l -7.9375,-7.937501 z"
+       d="m 74.083332,13.229167 -7.9375,7.937501 V 166.68751 l 7.9375,7.9375 H 174.62499 l 7.9375,-7.9375 V 21.166668 l -7.9375,-7.937501 z"
        sodipodi:nodetypes="ccccccccc" />
   </g>
   <g
@@ -116,72 +116,72 @@
      style="display:inline">
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 150.81243,31.750001 -1e-5,51.593737"
+       d="m 158.74993,31.750001 -1e-5,51.593737"
        id="path113"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 113.77083,31.750001 V 156.10418"
+       d="M 121.70833,31.750001 V 156.10418"
        id="path114"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 84.666741,134.93753 97.895749,-2e-5"
+       d="m 92.604242,134.93753 97.895748,-2e-5"
        id="path119"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 84.666661,52.916669 H 105.83333"
+       d="M 92.604162,52.916669 H 113.77083"
        id="path29"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 137.58332,52.916669 h 26.45834"
+       d="m 145.52082,52.916669 h 26.45834"
        id="path30"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 50.270831,26.458335 H 182.56249"
+       d="M 58.208332,26.458335 H 190.49999"
        id="path31"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 84.666661,84.66667 H 142.87499"
+       d="M 92.604162,84.66667 H 150.81249"
        id="path32"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 76.729161,74.083332 v 7.937505"
+       d="m 84.666662,74.083332 v 7.937505"
        id="path33"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 50.270831,111.12501 55.562579,1e-5"
+       d="m 58.208332,111.12501 55.562578,1e-5"
        id="path34"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 42.333331,31.750001 V 185.20834"
+       d="M 50.270832,31.750001 V 185.20834"
        id="path51"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="m 121.70832,161.39584 h 21.16667"
+       d="m 129.64582,161.39584 h 21.16667"
        id="path52"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 76.729161,31.750001 V 47.625002"
+       d="M 84.666662,31.750001 V 47.625002"
        id="path53"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 190.49998,31.750001 V 185.20834"
+       d="M 198.43748,31.750001 V 185.20834"
        id="path55"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 50.270831,190.50001 H 182.56249"
+       d="M 58.208332,190.50001 H 190.49999"
        id="path56"
        sodipodi:nodetypes="cc" />
   </g>
@@ -194,7 +194,7 @@
        id="r-back-yard"
        width="21.166666"
        height="15.875001"
-       x="179.91666"
+       x="187.85416"
        y="76.729164"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -202,7 +202,7 @@
        id="r-hall-3"
        width="21.166666"
        height="15.875001"
-       x="103.18747"
+       x="111.12497"
        y="103.1875"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -210,7 +210,7 @@
        id="r-entry"
        width="21.166666"
        height="15.875001"
-       x="66.145828"
+       x="74.083328"
        y="103.1875"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -218,7 +218,7 @@
        id="r-bathroom"
        width="15.874992"
        height="15.875002"
-       x="142.875"
+       x="150.8125"
        y="44.979168"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -226,7 +226,7 @@
        id="r-office"
        width="21.166666"
        height="15.875001"
-       x="140.22925"
+       x="148.16675"
        y="126.99999"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -234,7 +234,7 @@
        id="r-hall-2"
        width="21.166666"
        height="15.875001"
-       x="103.18739"
+       x="111.12489"
        y="76.729195"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -242,7 +242,7 @@
        id="r-kitchen"
        width="21.166666"
        height="15.875001"
-       x="66.145828"
+       x="74.083328"
        y="44.979172"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -250,7 +250,7 @@
        id="r-storage-closet"
        width="21.166666"
        height="15.875001"
-       x="66.145828"
+       x="74.083328"
        y="126.99999"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -258,7 +258,7 @@
        id="r-hall-4"
        width="21.166666"
        height="15.875001"
-       x="103.18747"
+       x="111.12497"
        y="126.99999"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -266,7 +266,7 @@
        id="r-linder-room"
        width="21.166666"
        height="15.875001"
-       x="140.22917"
+       x="148.16667"
        y="18.520838"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -282,7 +282,7 @@
        id="r-rock-garden"
        width="21.166666"
        height="15.875001"
-       x="179.91666"
+       x="187.85416"
        y="18.520834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -290,7 +290,7 @@
        id="r-living-room"
        width="21.166666"
        height="15.875001"
-       x="103.18748"
+       x="111.12498"
        y="18.520834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -298,7 +298,7 @@
        id="r-hall-1"
        width="21.166666"
        height="15.875001"
-       x="103.18747"
+       x="111.12497"
        y="44.979168"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -306,7 +306,7 @@
        id="r-dining-room"
        width="21.166666"
        height="15.875001"
-       x="66.145828"
+       x="74.083328"
        y="18.520834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -314,7 +314,7 @@
        id="r-butler-room"
        width="21.166672"
        height="13.229163"
-       x="66.145828"
+       x="74.083328"
        y="79.375"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -322,7 +322,7 @@
        id="r-monica-room"
        width="21.166666"
        height="15.875001"
-       x="140.22916"
+       x="148.16666"
        y="76.729164"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -330,7 +330,7 @@
        id="r-tub-room"
        width="10.58333"
        height="15.874998"
-       x="161.39583"
+       x="169.33333"
        y="44.979172"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -338,7 +338,7 @@
        id="r-toilet-room"
        width="10.58333"
        height="15.874998"
-       x="129.64583"
+       x="137.58333"
        y="44.979168"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -346,7 +346,7 @@
        id="r-butler-bath"
        width="21.166666"
        height="10.583335"
-       x="66.145828"
+       x="74.083328"
        y="66.145836"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -354,7 +354,7 @@
        id="r-office-porch"
        width="21.166666"
        height="15.875001"
-       x="179.91673"
+       x="187.85423"
        y="127.00002"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -362,7 +362,7 @@
        id="r-garage"
        width="21.166666"
        height="15.875001"
-       x="103.18756"
+       x="111.12506"
        y="153.45837"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -370,7 +370,7 @@
        id="r-workshop"
        width="21.166666"
        height="15.875001"
-       x="140.22916"
+       x="148.16666"
        y="153.45834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -378,7 +378,7 @@
        id="r-front-porch"
        width="21.166666"
        height="15.875001"
-       x="31.749994"
+       x="39.687496"
        y="103.1875"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -386,7 +386,7 @@
        id="r-driveway"
        width="21.166666"
        height="15.875001"
-       x="31.750002"
+       x="39.687504"
        y="153.45834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -394,7 +394,7 @@
        id="r-front-yard"
        width="21.166666"
        height="15.875001"
-       x="31.749994"
+       x="39.687496"
        y="18.520834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -402,7 +402,7 @@
        id="r-side-yard"
        width="21.166666"
        height="15.875001"
-       x="103.18756"
+       x="111.12506"
        y="182.56255"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -410,7 +410,7 @@
        id="r-office-path"
        width="21.166666"
        height="15.875001"
-       x="179.91666"
+       x="187.85416"
        y="182.56252"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -418,7 +418,7 @@
        id="r-driveway-entrance"
        width="21.166666"
        height="15.875001"
-       x="31.750002"
+       x="39.687504"
        y="182.56252"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -430,28 +430,30 @@
      style="display:inline">
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       d="m 15.874999,189.17709 v 23.8125 h 31.75001"
+       d="m 2.6458332,161.39584 v 23.8125 H 34.395843"
        id="path1"
        sodipodi:nodetypes="ccc" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.40000001;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 68.791664,497.41669 H 97.895828"
-       id="path22" />
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#6292df;stroke-width:2.117;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="M 6.6145847,121.70834 H 31.749999"
+       id="path22"
+       sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;paint-order:stroke fill markers"
        d="M 18.256251,201.08334 H 132.02707"
        id="path46" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#df62a9;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58;-inkscape-stroke:none;paint-order:stroke fill markers"
-       d="M 68.791663,508.00002 H 97.895829"
-       id="path59" />
+       d="M 6.6145842,137.58334 H 31.749999"
+       id="path59"
+       sodipodi:nodetypes="cc" />
     <path
        style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#6292df;fill-opacity:0.5;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000"
-       d="m 97.936906,495.56442 c -0.18216,-0.004 -0.36813,0.0185 -0.55242,0.0713 -0.96152,0.27576 -1.5521,1.30845 -1.27021,2.29134 0.28189,0.98289 1.30845,1.55209 2.29134,1.2702 0.98289,-0.28189 1.55209,-1.30844 1.2702,-2.29133 -0.22903,-0.7986 -0.94954,-1.3238 -1.73891,-1.34152 z"
+       d="m 31.791077,119.85607 c -0.18216,-0.004 -0.36813,0.0185 -0.55242,0.0713 -0.96152,0.27576 -1.5521,1.30845 -1.27021,2.29134 0.28189,0.98289 1.30845,1.55209 2.29134,1.2702 0.98289,-0.28189 1.55209,-1.30844 1.2702,-2.29133 -0.22903,-0.7986 -0.94954,-1.3238 -1.73891,-1.34152 z"
        id="path16-7" />
     <path
        style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#6292df;fill-opacity:0.5;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000"
-       d="m 68.832742,495.56442 c -0.18216,-0.004 -0.36813,0.0185 -0.55242,0.0713 -0.96152,0.27576 -1.5521,1.30845 -1.27021,2.29134 0.28189,0.98289 1.30845,1.55209 2.29134,1.2702 0.98289,-0.28189 1.55209,-1.30844 1.2702,-2.29133 -0.22903,-0.7986 -0.94954,-1.3238 -1.73891,-1.34152 z"
+       d="m 6.6556627,119.85607 c -0.18216,-0.004 -0.36813,0.0185 -0.55242,0.0713 -0.96152,0.27576 -1.5521,1.30845 -1.27021,2.29134 0.28189,0.98289 1.30845,1.55209 2.29134,1.2702 0.98289,-0.28189 1.55209,-1.30844 1.2702,-2.29133 -0.22903,-0.7986 -0.94954,-1.3238 -1.73891,-1.34152 z"
        id="path16-8" />
   </g>
   <g
@@ -582,119 +584,119 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="190.5"
+       x="198.4375"
        y="83.608292"
        id="text41"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.5"
+         x="198.4375"
          y="83.608292"
          id="tspan46">Back</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.5"
+         x="198.4375"
          y="89.111618"
          id="tspan35">Yard</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77084"
+       x="121.70834"
        y="110.06667"
        id="text89"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77084"
+         x="121.70834"
          y="110.06667"
          id="tspan86">Hallway</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77084"
-         y="115.56999"
+         x="121.70834"
+         y="115.57"
          id="tspan89">(3)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="76.729172"
+       x="84.666672"
        y="112.71247"
        id="text95"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729172"
+         x="84.666672"
          y="112.71247"
          id="tspan95">Entry</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="150.81262"
+       x="158.75012"
        y="136.52495"
        id="text101"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.81262"
+         x="158.75012"
          y="136.52495"
          id="tspan101">Office</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77077"
+       x="121.70827"
        y="83.608322"
        id="text103"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77077"
+         x="121.70827"
          y="83.608322"
          id="tspan104">Hallway</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77077"
+         x="121.70827"
          y="89.111649"
          id="tspan19">(2)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="76.729172"
+       x="84.666672"
        y="133.87912"
        id="text117"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729172"
+         x="84.666672"
          y="133.87912"
          id="tspan117">Storage</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729172"
+         x="84.666672"
          y="139.38245"
          id="tspan34">Closet</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77084"
+       x="121.70834"
        y="133.87914"
        id="text119"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77084"
+         x="121.70834"
          y="133.87914"
          id="tspan119">Hallway</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77084"
+         x="121.70834"
          y="139.38246"
          id="tspan20">(4)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="150.81255"
+       x="158.75005"
        y="25.39996"
        id="text129"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.81255"
+         x="158.75005"
          y="25.39996"
          id="tspan131">Linder’s</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.81255"
+         x="158.75005"
          y="30.903288"
          id="tspan8">Bedroom</tspan></text>
     <text
@@ -711,313 +713,313 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77082"
-       y="499.00421"
+       x="18.520832"
+       y="129.64584"
        id="text40"><tspan
          sodipodi:role="line"
          style="fill:#5f5f5f;fill-opacity:1;stroke-width:1"
-         x="113.77082"
-         y="499.00421"
+         x="18.520832"
+         y="129.64584"
          id="tspan40">Transit line</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77082"
-       y="509.58752"
+       x="18.520832"
+       y="145.52084"
        id="text71"><tspan
          sodipodi:role="line"
          style="fill:#5f5f5f;fill-opacity:1;stroke-width:1"
-         x="113.77082"
-         y="509.58752"
+         x="18.520832"
+         y="145.52084"
          id="tspan71">Sight line</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77083"
+       x="121.70833"
        y="25.4"
        id="text10"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77083"
+         x="121.70833"
          y="25.4"
          id="tspan10">Living</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77083"
+         x="121.70833"
          y="30.903328"
          id="tspan12">Room</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="76.729156"
+       x="84.666656"
        y="25.400002"
        id="text14"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729156"
+         x="84.666656"
          y="25.400002"
          id="tspan13">Dining</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729156"
+         x="84.666656"
          y="30.90333"
          id="tspan14">Room</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="76.729156"
+       x="84.666656"
        y="53.975006"
        id="text16"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729156"
+         x="84.666656"
          y="53.975006"
          id="tspan16">Kitchen</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77083"
+       x="121.70833"
        y="51.858334"
        id="text17"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77083"
+         x="121.70833"
          y="51.858334"
          id="tspan17">Hallway</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77083"
+         x="121.70833"
          y="57.361664"
          id="tspan18">(1)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="150.81242"
+       x="158.74992"
        y="83.343735"
        id="text22"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.81242"
+         x="158.74992"
          y="83.343735"
          id="tspan22">Monica’s</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.81242"
+         x="158.74992"
          y="88.847061"
          id="tspan23">Bedroom</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="76.729156"
+       x="84.666656"
        y="84.666664"
        id="text25"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729156"
+         x="84.666656"
          y="84.666664"
          id="tspan25">Butler’s</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729156"
+         x="84.666656"
          y="90.169991"
          id="tspan26">Room</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="76.729156"
+       x="84.666656"
        y="72.495834"
        id="text27"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="76.729156"
+         x="84.666656"
          y="72.495834"
          id="tspan27">Bathroom</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="150.8125"
+       x="158.75"
        y="51.32917"
        id="text28"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.8125"
+         x="158.75"
          y="51.32917"
          id="tspan28">Bath-</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.8125"
+         x="158.75"
          y="56.8325"
          id="tspan29">room</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="190.49997"
+       x="198.43747"
        y="24.870832"
        id="text37"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.49997"
+         x="198.43747"
          y="24.870832"
          id="tspan37">Rock</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.49997"
+         x="198.43747"
          y="30.374161"
          id="tspan38">Garden</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="190.50009"
+       x="198.43759"
        y="133.87917"
        id="text42"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.50009"
+         x="198.43759"
          y="133.87917"
          id="tspan41">Office</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.50009"
+         x="198.43759"
          y="139.38249"
          id="tspan42">Porch</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77083"
+       x="121.70833"
        y="162.45416"
        id="text43"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77083"
+         x="121.70833"
          y="162.45416"
          id="tspan43">Garage</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="150.81248"
+       x="158.74998"
        y="159.80836"
        id="text44"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.81248"
+         x="158.74998"
          y="159.80836"
          id="tspan44">Work-</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="150.81248"
+         x="158.74998"
          y="165.31169"
          id="tspan45">shop</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="42.333328"
+       x="50.270828"
        y="162.98335"
        id="text47"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="42.333328"
+         x="50.270828"
          y="162.98335"
          id="tspan47">Driveway</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="42.333328"
+       x="50.270828"
        y="110.06667"
        id="text48"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="42.333328"
+         x="50.270828"
          y="110.06667"
          id="tspan48">Front</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="42.333328"
+         x="50.270828"
          y="115.57"
          id="tspan49">Porch</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="42.333328"
+       x="50.270828"
        y="25.4"
        id="text51"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="42.333328"
+         x="50.270828"
          y="25.4"
          id="tspan50">Front</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="42.333328"
+         x="50.270828"
          y="30.903328"
          id="tspan51">Yard</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="134.9375"
+       x="142.875"
        y="54.504169"
        id="text52"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="134.9375"
+         x="142.875"
          y="54.504169"
          id="tspan52">WC</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="166.68748"
+       x="174.62498"
        y="54.504169"
        id="text53"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="166.68748"
+         x="174.62498"
          y="54.504169"
          id="tspan53">Tub</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="42.333328"
+       x="50.270828"
        y="189.4417"
        id="text56"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="42.333328"
+         x="50.270828"
          y="189.4417"
          id="tspan56">Driveway</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="42.333328"
+         x="50.270828"
          y="194.94502"
          id="tspan57">Entrance</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="113.77083"
+       x="121.70833"
        y="189.4417"
        id="text59"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77083"
+         x="121.70833"
          y="189.4417"
          id="tspan59">Side</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="113.77083"
+         x="121.70833"
          y="194.94502"
          id="tspan60">Yard</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="190.49997"
+       x="198.43747"
        y="189.4417"
        id="text62"><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.49997"
+         x="198.43747"
          y="189.4417"
          id="tspan62">Office</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:1"
-         x="190.49997"
+         x="198.43747"
          y="194.94502"
          id="tspan63">Path</tspan></text>
   </g>
