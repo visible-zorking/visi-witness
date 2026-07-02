@@ -21,7 +21,7 @@ import { SolvePage } from './solve';
 const tab_list = [
     [ 'activity', 'Activity' ],
     [ 'objtree', 'World' ],
-    //[ 'map', 'Map' ],
+    [ 'map', 'Map' ],
     [ 'globals', 'State' ],
     [ 'timers', 'Timers' ],
     [ 'schedule', 'Schedule' ],
@@ -95,11 +95,9 @@ export function TabbedPane()
     case 'activity':
         tabcontent = <CallActivity />;
         break;
-    /*
     case 'map':
         tabcontent = <GameMap mobiles={ mobiles } />;
         break;
-    */
     case 'globals':
         tabcontent = <GlobalState />;
         break;
