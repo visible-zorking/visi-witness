@@ -175,6 +175,17 @@ glob:PLAYER-NEAR-SHOT: The last time you examined the keyhole. If Linder trigger
 obj:CAT: Poor Asta’s only function is to disappear when the gun goes off. She never returns.
 
 
+rtn:I-WEATHER: Weather timer. The sequence of events is coded into the routine, rather than being a table.
+
+rtn:I-GOTO-LIVING-ROOM: Transports you to the living room a moment after you enter the house.
+
+rtn:I-LINDER-WELCOME: Despite the name, this is not a timer routine. (It might have been one in an earlier revision.) It simply handles the introductions when [rtn:I-GOTO-LIVING-ROOM] fires.
+
+rtn:I-LINDER-FOLLOWS-YOU: Timer routine for (surprise) Linder following you around. Starts when he welcomes you to the house ([rtn:I-LINDER-WELCOME]); ends when [rtn:I-LINDER-TO-OFFICE] fires.
+
+rtn:I-LINDER-TO-OFFICE: Transports you to the office when Linder is ready to talk. Unless you’re wandering outside at the time, in which case he gives up on you ([glob:TOO-LATE]).
+
+
 src:EVENTS-1143: `"Suddenly Phong appears and "` is a separate string, although the next string is printed directly after – the player can’t see the break.
 	This may have been an attempt at optimization. A few lines down, the next `TELL` is split at the same point. This pattern appears very frequently across the source code.
 	The ZIL compiler did not in fact optimize this case. The string appears twice in the compiled routine, not once.
