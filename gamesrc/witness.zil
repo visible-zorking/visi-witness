@@ -7,7 +7,7 @@ Copyright (C) 1983 Infocom, Inc.  All rights reserved."
   changes which were never compiled.
 
   (We should also note that Witness r23 was not a release version! It
-  was a "final development" version and may contain undetected bugs.)
+  was a 'final development' version and may contain undetected bugs.)
 
   I have attempted to reconstruct the source code *as of the latest r23
   compile* by reverting all source changes that don't match the game file.
