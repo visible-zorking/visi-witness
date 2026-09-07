@@ -429,7 +429,7 @@ Global 85 P-ADJ
 Global 86 P-XNAM
 Global 87 P-NAM
 Global 88 P-GWIMBIT
-Global 89 P-SLOCBITS
+Global 89 P-SLOCBITS  SLOCBITS
 Global 90 UNKNOWN-MSGS  DATA
 Global 91 P-NUMBER
 Global 92 X-IS-LISTENING
@@ -517,7 +517,10 @@ Global 173 VERBS  table created from SYNTAX
 
 # Argument type info for routines that are hard to guess.
 
+RoutineType - ACLAUSE-WIN WORD
 RoutineType - CLAUSE - - WORD
+RoutineType - CLAUSE-ADD WORD
+RoutineType - CLAUSE-COPY TABLE TABLE WORD
 RoutineType - COM-CHECK OBJ
 RoutineType - COR-DIR OBJ OBJ
 RoutineType - CORRIDOR-CHECK TABLE OBJ
@@ -528,15 +531,17 @@ RoutineType - DDESC STR OBJ STR
 RoutineType - DESCRIBE-PERSON OBJ
 RoutineType - DIR-FROM OBJ OBJ
 RoutineType - DIR-PRINT PROP
+RoutineType - DO-SL OBJ SLOCBITS SLOCBITS
 RoutineType - DISCRETION OBJ OBJ
 RoutineType - ESTABLISH-GOAL OBJ OBJ
 RoutineType - FOLLOW-GOAL OBJ
 RoutineType - FOLLOWED? OBJ
 RoutineType - GOAL-REACHED OBJ
 RoutineType - GRAB-ATTENTION OBJ
-RoutineType - GWIM - - PREP
+RoutineType - GWIM ATTRZ SLOCBITS PREP
 RoutineType - IMOVEMENT OBJ RTN
 RoutineType - IN-MOTION? OBJ
+RoutineType - ITAKE-CHECK TABLE SLOCBITS
 RoutineType - MOVE-PERSON OBJ OBJ
 RoutineType - ORPHAN GLINE GLINE
 RoutineType - PERFORM ACTION PERFORMO PERFORMI
@@ -552,7 +557,7 @@ RoutineType - TRANSFER OBJ OBJ OBJ
 RoutineType - UNPRIORITIZE OBJ
 RoutineType - WHERE-UPDATE OBJ
 RoutineType - V-CLIMB-UP PROP
-RoutineType - WT? WORD - -
+RoutineType - WT? WORD PSTYPE P1TYPE
 
 
 # Map connections that don't come directly from room properties.
