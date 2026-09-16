@@ -15,3 +15,16 @@ MIT license; [Github repo][github]. Hosted by the
 [github]: https://github.com/visible-zorking/visi-witness
 [ocicat]: https://eblong.com/infocom/
 
+---
+
+*Editor's note:* The archived _Witness_ source does not exactly match
+the r23 game file (even though they were found together). The source
+code contains a few changes which were never compiled.
+ 
+(We should also note that _Witness_ r23 was not a release version! It
+was a "final development" version and may contain undetected bugs.)
+ 
+I have attempted to reconstruct the source code *as of the latest r23
+compile* by reverting all source changes that don't match the game file.
+See `***VZ:***` comments in these files. For clarity, I will refer to
+the archived source as "r23+".
